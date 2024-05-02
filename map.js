@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/standard',
     center: [-70, 20],
-    zoom: 1
+    zoom: 2
 });
 
 var app_deployment_url = "./data/app_deployment.geojson"
