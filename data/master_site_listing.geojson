@@ -1,0 +1,3292 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "AMG",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "AM General Conductor",
+                "SITE LOCATION": "Genova, Italy",
+                "STREET ADDRESS": "Via Angelo Scarsellini, 14716149, Genova, Italy",
+                "ERP": "Navision"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.89937,
+                    44.40794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ANC",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Annax Rail Systems - China",
+                "SITE LOCATION": "Suzhou, China",
+                "STREET ADDRESS": "Building 47, No.666 Jianlin Road, SND, EPZ Sub-Industrial Park, 215129 Suzhou",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.960143,
+                    33.633857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ANG",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Annax Brunnthal, Germany",
+                "SITE LOCATION": "Brunnthal, Germany",
+                "STREET ADDRESS": "ANNAX GmbH, Eugen-S�nger-Ring 15, 85649 Brunnthal, Germany",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6632871,
+                    48.0391534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "AMS",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "FT Amiens",
+                "SITE LOCATION": "Amiens, France",
+                "STREET ADDRESS": "115 Rue Andr� Durouchez, 80084 Amiens cedex 2, France",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.27349,
+                    49.93331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ANS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Annax - Switzerland",
+                "SITE LOCATION": "Bern, Switzerland",
+                "STREET ADDRESS": "Zentweg 9, 3006 Bern, Switzerland",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.474254,
+                    46.957668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "APD",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight",
+                "SITE": "Monterrey (GEMSR)",
+                "SITE LOCATION": "Monterrey, Mexico",
+                "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.13354,
+                    25.77816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ATK",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Aero Transportation Products Inc",
+                "SITE LOCATION": "McPherson, KS",
+                "STREET ADDRESS": "1330 US-81 BUS, McPherson, KS 67460",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.66695,
+                    38.35579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ATM",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Aero Transportation Products Inc",
+                "SITE LOCATION": "Independence, MO",
+                "STREET ADDRESS": "3300 E. Geospace Drive Independence, MO 64056 ",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.366641,
+                    39.113517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "AXM",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Axiom",
+                "SITE LOCATION": "Doncaster, United Kingdom",
+                "STREET ADDRESS": "Hexthorpe Road, Doncaster Works, Doncaster DN4 0BF, United Kingdom",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.141313,
+                    53.5213155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BCR",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "BECORIT GmbH",
+                "SITE LOCATION": "Recklinghausen, Germany",
+                "STREET ADDRESS": "Rumplerstra�e 6-10, 45659 Recklinghausen, Germany",
+                "ERP": "FEPA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.59648,
+                    51.59648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BEM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Bearward",
+                "SITE LOCATION": "Minnesota",
+                "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.218521,
+                    45.162392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BEN",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Bearward",
+                "SITE LOCATION": "Northamptonshire, UK",
+                "STREET ADDRESS": "Main Rd, Far Cotton, Northampton NN4 8HJ, United Kingdom",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.906813,
+                    52.227988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BIF",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Foundry",
+                "SITE LOCATION": "Wallaceburg, Canada",
+                "STREET ADDRESS": "40 Mason St, Wallaceburg, ON N8A 4M1, Canada",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.3990808,
+                    42.5826439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BKH",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Birkenhead",
+                "SITE LOCATION": "Birkenhead, United Kingdom",
+                "STREET ADDRESS": "Morpeth Wharf, Birkenhead CH41 1LF, United Kingdom",
+                "ERP": "Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0180507,
+                    53.3997307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BSL",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Bach Simpson",
+                "SITE LOCATION": "London, Canada",
+                "STREET ADDRESS": "109 Meg Dr, London, ON N6E 3Z7, Canada",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2310577,
+                    42.9204937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BSO",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Barber Springs OH",
+                "SITE LOCATION": "Chillicothe, OH, USA",
+                "STREET ADDRESS": "387 Wetzel Dr, Chillicothe, OH 45601",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.949292,
+                    39.3291807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BSP",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Barber Springs PA",
+                "SITE LOCATION": "Pittsburgh, PA, USA (McCandless Ave)",
+                "STREET ADDRESS": "1 McCandless Ave, Pittsburgh, PA 15201",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.955295,
+                    40.48358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "BVG",
+                "Ops Leader": "C. Strong",
+                "B/U": "Digital Electronics",
+                "SITE": "Kinitex - Inspection technologies (Beena Vision)",
+                "SITE LOCATION": "Norcross, GA",
+                "STREET ADDRESS": "600 PINNACLE COURT SUITE 635, NORCROSS, GA 30071 ",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.1871357,
+                    33.9307587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CAS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Service Morocco",
+                "SITE LOCATION": "Casablanca, Morocco",
+                "STREET ADDRESS": "7, R�sidence Rami Rue Sebta, Office 8., Casablanca, Morocco",
+                "ERP": "Clipper"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.617895,
+                    33.582396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CHD",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Unifin China",
+                "SITE LOCATION": "Daye, China",
+                "STREET ADDRESS": "268 Daye Road, Daye, China",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.6443675,
+                    24.2288391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CLE",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Cleveland Reman",
+                "SITE LOCATION": "Cleveland, OH",
+                "STREET ADDRESS": "4477 E 49th St, Cleveland, OH 44125",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6565861,
+                    41.4574809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CMP",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Train Performance - Melbourne, FL",
+                "SITE LOCATION": "Melbourne, FL",
+                "STREET ADDRESS": "1990 W NASA Blvd, Melbourne, FL 32904",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.6537855,
+                    28.0944816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "COF",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Cofren",
+                "SITE LOCATION": "Avellino, Italy",
+                "STREET ADDRESS": "Via Pianodardine, 83100 Avellino AV, Italy",
+                "ERP": "Visual Space"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.8241121,
+                    40.9313923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CPS",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Cardinal Pumps",
+                "SITE LOCATION": "Salem, Ohio",
+                "STREET ADDRESS": "1425 Quaker Ct. Salem, OH 44460",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.8831139,
+                    40.9166812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CRC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "WGS Chicago",
+                "SITE LOCATION": "Chicago, IL",
+                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6346073,
+                    41.7418921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "CRD",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Cardwell",
+                "SITE LOCATION": "Chicago, IL",
+                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6346073,
+                    41.7418921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "DCM",
+                "Ops Leader": "M. Thomas",
+                "B/U": "NA Distribution",
+                "SITE": "Plainfield DC",
+                "SITE LOCATION": "Plainfield, IN",
+                "STREET ADDRESS": "1110 Smith Rd, Plainfield, IN 46168",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.361333,
+                    39.732258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "DCS",
+                "Ops Leader": "M. Thomas",
+                "B/U": "NA Distribution",
+                "SITE": "Houston DC",
+                "SITE LOCATION": "Houston, TX",
+                "STREET ADDRESS": "3004 Aldine Bender Rd Bldg A, Houston, TX 77032",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.339773,
+                    29.930278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "DCW",
+                "Ops Leader": "M. Thomas",
+                "B/U": "NA Distribution",
+                "SITE": "Reno DC",
+                "SITE LOCATION": "Reno, NV",
+                "STREET ADDRESS": "9477 NORTH VIRGINIA ST RENO NV 89506",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8642716,
+                    39.6083096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "DFM",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Dia-Frag (GDM)",
+                "SITE LOCATION": "Monte Alto, Brazil",
+                "STREET ADDRESS": "Rua 19 de Novembro, 305 - Vila Sao Cristovao, Monte Alto - SP, 15910-000, Brazil",
+                "ERP": "TOTVS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.49838,
+                    -21.2732978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "EKD",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight",
+                "SITE": "Erie Kitting",
+                "SITE LOCATION": "Erie, PA",
+                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.027428,
+                    42.1516188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ELK",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Hanover Park",
+                "SITE LOCATION": "Chicago, IL",
+                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6346073,
+                    41.7418921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "EMP",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Emporium Reman",
+                "SITE LOCATION": "Emporium, PA",
+                "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.229597,
+                    41.509152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "EPM",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight",
+                "SITE": "Erie Propulsion",
+                "SITE LOCATION": "Erie, PA",
+                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.027428,
+                    42.1516188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ERC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Erie Campus",
+                "SITE LOCATION": "Erie, PA",
+                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.027428,
+                    42.1516188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ERI",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight",
+                "SITE": "Erie",
+                "SITE LOCATION": "Erie, PA",
+                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.027428,
+                    42.1516188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "ETS / GCM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "GETSA GSC (SPO)",
+                "SITE LOCATION": "Contagem, Brazil",
+                "STREET ADDRESS": "Av. Cardeal Eug�nio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.022148,
+                    -19.95433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FBI",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "FIP",
+                "SITE LOCATION": "New South Wales, Australia",
+                "STREET ADDRESS": "6 Wenban Pl. Wetherill Park New South Wales 2164",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.9030119,
+                    -33.8391526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FBS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Brecknell Willis",
+                "SITE LOCATION": "Chard, United Kingdom",
+                "STREET ADDRESS": "8 Millfield, Chard TA20 2BB, United Kingdom",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9603431,
+                    50.872485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FCE",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Fulmer Motors",
+                "SITE LOCATION": "Export, PA",
+                "STREET ADDRESS": "3004 Venture Ct, Export, PA 15632",
+                "ERP": "Made 2 Manage"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.6125314,
+                    40.3981076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FCZ",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Czech",
+                "SITE LOCATION": "Plzen, Czech Republic",
+                "STREET ADDRESS": "U P?ivad??e 1315/3, 326 00 Plze? 2-Slovany, Czechia",
+                "ERP": "MM4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4273862,
+                    49.708324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FFE",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Far East",
+                "SITE LOCATION": "Hong Kong, China",
+                "STREET ADDRESS": "38? Heung Yip Rd, Hong Kong",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1631918,
+                    22.2478828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FMT",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Metro Technology Shanghai",
+                "SITE LOCATION": "Shanghai, China",
+                "STREET ADDRESS": "31 FuLian No.1 Rd.,Baoshan District, Shanghai",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.4053135,
+                    31.36939864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FRH",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Rohtak",
+                "SITE LOCATION": "Rohtak, India",
+                "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.6857,
+                    28.8342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FRI",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "FT India Rohtak Friction",
+                "SITE LOCATION": "Rohtak, India",
+                "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.6857,
+                    28.8342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FSG",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Stemmann Technick - STT",
+                "SITE LOCATION": "Schuttorg, Germany",
+                "STREET ADDRESS": "Niedersachsenstra�e 2, 48465 Sch�ttorf, Germany",
+                "ERP": "Abas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2440265,
+                    52.3396967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FSP",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Stemmann Poland - STP",
+                "SITE LOCATION": "Wroclaw, Poland",
+                "STREET ADDRESS": "Sp�?dzielcza 22, 55-080 K?ty Wroc?awskie, Poland",
+                "ERP": "Abas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.75075,
+                    51.0287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "FTF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Stemmann France",
+                "SITE LOCATION": "Buchelay, France",
+                "STREET ADDRESS": "20 Rue des Piquettes, 78200 Buchelay, France",
+                "ERP": "Abas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.6844897,
+                    48.9894572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GBB",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "GandB Specialties",
+                "SITE LOCATION": "Berwick, PA",
+                "STREET ADDRESS": "535 W 3rd St, Berwick, PA 18603",
+                "ERP": "Visual Manufacturing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2423573,
+                    41.0523952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GGB",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Gerken Belgium",
+                "SITE LOCATION": "Verviers, Belgium",
+                "STREET ADDRESS": "Av. du Parc 41, 4800 Verviers, Belgium",
+                "ERP": "Silicon / BOM 50"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8295272,
+                    50.623858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GGC",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Gerken CZ Carbon",
+                "SITE LOCATION": "Pilzen, Czech Republic",
+                "STREET ADDRESS": "U P?ivad??e 1296, 326 00 Plze? 2-Slovany, Czechia",
+                "ERP": "Helios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4295652,
+                    49.7072835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GGF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Gerken France",
+                "SITE LOCATION": "Condrieu, France",
+                "STREET ADDRESS": "ZAC de l'Orme, 3 Chem. du Camping, 69420 Condrieu, France",
+                "ERP": "Silicon / BOM 50"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.7750954,
+                    45.4627345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GGG",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Gerken Pantrac",
+                "SITE LOCATION": "Berlin, Germany",
+                "STREET ADDRESS": "Vulkanstra�e 13, 10367 Berlin, Germany",
+                "ERP": "Navision"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4860595,
+                    52.5313013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GRR",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Grove City Reman (GRM)",
+                "SITE LOCATION": "Grove City, PA",
+                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.109056,
+                    41.167803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GRV",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Grove City new engine manufacturing",
+                "SITE LOCATION": "Grove City, PA",
+                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.109056,
+                    41.167803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "GVO",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Super Metal / MoW / Nordco (GVO/GVW)",
+                "SITE LOCATION": "Governador Valadares, Brazil",
+                "STREET ADDRESS": "Av. Industrial, 767 - Distrito Industrial, Gov. Valadares - MG, 35040-610, Brazil",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -41.94944,
+                    -18.85111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HDF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Wabtec Hauts-de-France",
+                "SITE LOCATION": "Amiens, France",
+                "STREET ADDRESS": "115 Rue Andr� Durouchez, 80084 Amiens cedex 2, France",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2724824,
+                    49.932487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HGF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Switzerland",
+                "SITE LOCATION": "H�gendorf, Switzerland",
+                "STREET ADDRESS": "Fabrikstrasse 4, 4614 H�gendorf, Switzerland",
+                "ERP": "None"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.839716,
+                    47.329883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HOU",
+                "Ops Leader": "M. Thomas",
+                "B/U": "NA Distribution",
+                "SITE": "WGS Houston",
+                "SITE LOCATION": "Houston, TX",
+                "STREET ADDRESS": "3004 Aldine Bender Rd Bldg A, Houston, TX 77032",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.339773,
+                    29.930278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HPD",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "FT India Himachal Pradesh - Baddi",
+                "SITE LOCATION": "Baddi, India",
+                "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.5238657,
+                    31.3104918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HQA",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Transit OPS Admin",
+                "SITE LOCATION": "Gennevilliers, France",
+                "STREET ADDRESS": "41 Rue Jean Jaur�s, 92230 Gennevilliers, France",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2951443,
+                    48.9284025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "HSR",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "FT India Hosur",
+                "SITE LOCATION": "Tamil Nadu - IND",
+                "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.95,
+                    12.2156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KAD",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Int'l Distribution",
+                "SITE": "Aktobe Regional DC",
+                "SITE LOCATION": "Aktobe, Kazakhstan",
+                "STREET ADDRESS": "",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.2273385,
+                    50.2808012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KCR",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Kansas City",
+                "SITE LOCATION": "Kansas City, MO",
+                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.5244106,
+                    39.1385729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KOM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Komatsu - Wacol and Welshpool",
+                "SITE LOCATION": "Wacol, Australia",
+                "STREET ADDRESS": "535 Progress Rd, Wacol QLD 4076, Australia",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.9376489,
+                    -27.5934601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KRC",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "WGS Kansas City",
+                "SITE LOCATION": "Kansas City, MO",
+                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.5244106,
+                    39.1385729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KSE",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Korea Ltd",
+                "SITE LOCATION": "Daegot-myeon, South Korea",
+                "STREET ADDRESS": "",
+                "ERP": "DUZON"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.6014564,
+                    35.8711775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "KSR",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Astana Diesel Shop (GEKUK)",
+                "SITE LOCATION": "Astana, Kazakhstan",
+                "STREET ADDRESS": "",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.4211496,
+                    51.1668879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LHB",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "LH Group",
+                "SITE LOCATION": "Burton Under, United Kingdom",
+                "STREET ADDRESS": "Graycar Business Park, Burton-On-Trent DE13 8EN",
+                "ERP": "Topaz"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.69644,
+                    52.763282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LIB/LIS/LIW",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Longwood Elastomers ",
+                "SITE LOCATION": "Brenham, TX OR Spain OR Wytheville, VA",
+                "STREET ADDRESS": "1901 Longwood Dr, Brenham, TX 77833",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.41456,
+                    30.149301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LKR",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Nordic",
+                "SITE LOCATION": "Landskrona, Sweden",
+                "STREET ADDRESS": "Andra tv�rgatan 41, 261 35 Landskrona, Sweden",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8284376,
+                    55.8640501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LMA",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "L&M Radiator Antofagasta",
+                "SITE LOCATION": "Antofagasta, Chile",
+                "STREET ADDRESS": "Av. Antonio Rendic 6930, 1265823 Antofagasta, Chile",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.3854904,
+                    -23.6081181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LMH",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "L&M Radiator Hibbing",
+                "SITE LOCATION": "Hibbing, Minnesota",
+                "STREET ADDRESS": "1414 E 37th St, Hibbing, MN 55746",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.9217229,
+                    47.4052593
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LMP",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "L&M Radiator Perth",
+                "SITE LOCATION": "Perth, Australia",
+                "STREET ADDRESS": "245 Star St, Welshpool WA 6106, Australia",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.9289035,
+                    -31.9883623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LMY",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "L&M Radiator Yankton",
+                "SITE LOCATION": "Yankton, South Dakota",
+                "STREET ADDRESS": "2204 W City Limits Rd, Yankton, SD 57078",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.41576,
+                    42.8933476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LPD",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Wabtec Locomotive Products",
+                "SITE LOCATION": "Wilmerding, PA",
+                "STREET ADDRESS": "1001 Airbrake Ave, Wilmerding, PA 15148",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.8179186,
+                    40.4010089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LPZ",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Leipzig KG",
+                "SITE LOCATION": "Leipzig, Germany",
+                "STREET ADDRESS": "Industriestra�e 60, 04435 Schkeuditz, Germany",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2119722,
+                    51.4055294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "LVR",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Las Vegas Reman",
+                "SITE LOCATION": "Las Vegas, NV",
+                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.054536,
+                    36.2658084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MEL",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "FT Australia Melbourne",
+                "SITE LOCATION": "Melbourne, Australia",
+                "STREET ADDRESS": "19 Southern Ct, Keysborough VIC 3173, Australia",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.178578,
+                    -38.0148378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MEN",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Melett UK",
+                "SITE LOCATION": "Barnsley, United Kingdom",
+                "STREET ADDRESS": "Unit N, Zenith Business Park, Whaley Rd, Barnsley S75 1HT, United Kingdom",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5118796,
+                    53.5680892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MEP",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Melett Poland",
+                "SITE LOCATION": "Bydgoszcz, Poland",
+                "STREET ADDRESS": "Stanis?awa Jana Rolbieskiego 4, 85-862 Bydgoszcz, Poland",
+                "ERP": "Access Dim"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0624637,
+                    53.0930019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MEU",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Melett USA",
+                "SITE LOCATION": "Memphis, TN",
+                "STREET ADDRESS": "4400 S Mendenhall Rd #12, Memphis, TN 38141",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.8820422,
+                    35.0285364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MFM",
+                "Ops Leader": "C. Strong",
+                "B/U": "Digital Electronics",
+                "SITE": "Digital Mine",
+                "SITE LOCATION": "Fountaindale, Australia",
+                "STREET ADDRESS": "3 Co-Wyn Close, Fountaindale, NSW 2258, Australia",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.4026308,
+                    -33.3325664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MMH  / NOK",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
+                "SITE LOCATION": "Kansas City, MO (w/ NOK)",
+                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.5244106,
+                    39.1385729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MRC",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "WGS Montreal",
+                "SITE LOCATION": "Lachine, Montreal, Canada",
+                "STREET ADDRESS": "Bd Jean Baptiste Deschamps, Lachine, QC H8T 1C5, Canada",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.698454,
+                    45.46427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MRZ",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Merz Industrietechnik GmbH",
+                "SITE LOCATION": "Wiener Neudorf, Austria",
+                "STREET ADDRESS": "Ricoweg 30A, 2351 Wiener Neudorf, Austria",
+                "ERP": "Homegrown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3196569,
+                    48.0803604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MSA",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt Asia",
+                "SITE LOCATION": "Hong Kong, China",
+                "STREET ADDRESS": "26/F., Casey Aberdeen House 38, Heung Yip Road Wong Chuk Hang, Hong Kong",
+                "ERP": "Epicor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.163817,
+                    22.248091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MSC",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt China",
+                "SITE LOCATION": "Zhongshan, China",
+                "STREET ADDRESS": "Man. Zone Changmingshui, Wuguishan, Zhongshan, 528458 Guangdong, China",
+                "ERP": "Epicor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36174,
+                    22.52225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MSF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt France",
+                "SITE LOCATION": "Sabl�-sur-Sarthe, France",
+                "STREET ADDRESS": "2 Rue de la Mandiniere, Sable-sur-Sarthe, 72300 France",
+                "ERP": "Cegid+ Isoflex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.3036344,
+                    47.8213509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MST",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt USA",
+                "SITE LOCATION": "Buffalo Grove, Illinois",
+                "STREET ADDRESS": "1010 Johnson Drive, Buffalo Grove, IL 60089-6918, United States",
+                "ERP": "Quick Books"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9316833,
+                    42.1542574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MSU",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt UK",
+                "SITE LOCATION": "Burton-on-Trent, UK",
+                "STREET ADDRESS": "Graycar Business Park, Burton on Trent, Staffordshire, DE13 8EN, United Kingdom",
+                "ERP": "Sage 200"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6955519,
+                    52.765144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MTC",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Metalocaucho",
+                "SITE LOCATION": "Urnieta, Spain",
+                "STREET ADDRESS": "Pol. Ind. Erratzu, E, 253, 20130 Urnieta, Gipuzkoa, Spain",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9931811,
+                    43.2366833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MTK",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Metalocaucho India",
+                "SITE LOCATION": "Bangalore, India",
+                "STREET ADDRESS": "184, Sy 46, 3rd Phase, Bommasandra, Bengaluru 560099",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.685877,
+                    12.822877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MTS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Metalocaucho China",
+                "SITE LOCATION": "Suzhou, China",
+                "STREET ADDRESS": "Zhongfeng Street SND, No.22. 215129 Suzhou, China",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.8209346,
+                    31.3069115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "MZT",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "MZT",
+                "SITE LOCATION": "Skopje, Macedonia",
+                "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.4792057,
+                    41.9968158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NIT",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Beacon Falls, CT",
+                "SITE LOCATION": "Beacon Falls, CT",
+                "STREET ADDRESS": "125 Railroad Ave., Beacon Falls, CT 06403",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.0623046,
+                    41.4375449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NOA",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Nordco Arcola",
+                "SITE LOCATION": "Arcola, IL",
+                "STREET ADDRESS": "107 US-45, Arcola, IL 61910",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.3109355,
+                    39.6713203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NOB",
+                "Ops Leader": "",
+                "B/U": "Freight Services",
+                "SITE": "Nordco Beacon Falls",
+                "SITE LOCATION": "Beacon Falls, CT",
+                "STREET ADDRESS": "125 Railroad Ave, Beacon Falls, CT 06403",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.0634841,
+                    41.4334307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NOO",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Nordco Oak Creek",
+                "SITE LOCATION": "Oak Creek, WI",
+                "STREET ADDRESS": "245 W Forest Hill Ave, Oak Creek, WI 53154",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9142008,
+                    42.8938982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NOW",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Nowe - Elze Germany",
+                "SITE LOCATION": "Elze, Germany",
+                "STREET ADDRESS": "Heilswannenweg 66, 31008 Elze, Germany",
+                "ERP": "MKS - Goliath & Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.730229,
+                    52.1093427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NSF",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport NSF",
+                "SITE LOCATION": "Neuville en Ferrain, France",
+                "STREET ADDRESS": "Voie Nouvelle, 59960 Neuville-en-Ferrain, France",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15898737,
+                    50.75389209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "NTL",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Napier Turbo",
+                "SITE LOCATION": "Lincoln, United Kingdom",
+                "STREET ADDRESS": "Ruston House, Waterside South, Lincoln, LN5 7FD, United Kingdom",
+                "ERP": "Baan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.534896,
+                    53.225902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "PBC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Pride Bodies",
+                "SITE LOCATION": "Cambridge, Canada",
+                "STREET ADDRESS": "37 Raglin Pl, Cambridge, ON N1R 7J2, Canada",
+                "ERP": "Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.307321,
+                    43.399812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "PLI",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Poli Srl",
+                "SITE LOCATION": "Camisano, Italy",
+                "STREET ADDRESS": "Via Fontanella, 11, 26010 Camisano CR, Italy",
+                "ERP": "Spacenet"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7480973,
+                    45.4436225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "POL",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Polska z.o.o.",
+                "SITE LOCATION": "Pozna?, Poland",
+                "STREET ADDRESS": "Ostrowska 382, 61-312 Pozna?, Poland",
+                "ERP": "None"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.9949456,
+                    52.3604697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "PSC",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Italia s.p.a",
+                "SITE LOCATION": "Piossasco, Italy",
+                "STREET ADDRESS": "Via Volvera, 51, 10045 Priore TO, Italy",
+                "ERP": "Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4931,
+                    44.9921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "PTE",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Precision Turbo",
+                "SITE LOCATION": "Hebron, Indiana",
+                "STREET ADDRESS": "9401 Georgia Street, Crown Point, IN 46307",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.3241675,
+                    41.4462614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "QFS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Qingdao Faiveley Sri Rail Brake Co. Ltd",
+                "SITE LOCATION": "Qingdao, China",
+                "STREET ADDRESS": "South of Xinye Rd, West of Herong Rd, Qingdao High-tech Zone, Qingdao City 266114",
+                "ERP": "Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.5718773,
+                    -34.9320844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RAI",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Relco Albia",
+                "SITE LOCATION": "Albia, IA, USA",
+                "STREET ADDRESS": "2074 653rd Ave, Albia, IA 52531",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.792817,
+                    40.980441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RCI",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Relco Cedar Rapids (WCR)",
+                "SITE LOCATION": "Cedar Rapids, Iowa",
+                "STREET ADDRESS": "5250 N River Blvd NE, Cedar Rapids, IA 52411",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.7120002,
+                    42.0291658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RCR",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight Services",
+                "SITE": "Relco Locomotives Cedar Rapids",
+                "SITE LOCATION": "Cedar Rapids, Iowa",
+                "STREET ADDRESS": "5250 N River Blvd NE, Cedar Rapids, IA 52411",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.7120002,
+                    42.0291658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "REA",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight Services",
+                "SITE": "Relco Locomotives Albia",
+                "SITE LOCATION": "Albia, IA, USA",
+                "STREET ADDRESS": "2074 653rd Ave, Albia, IA 52531",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.792817,
+                    40.980441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RFP",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Railroad Friction Products Corporation",
+                "SITE LOCATION": "Maxton, North Carolina",
+                "STREET ADDRESS": "13601 Airport Rd, Maxton, NC 28364",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.3685315,
+                    34.7622754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RIP",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Ricon (US/UK/Brdg)",
+                "SITE LOCATION": "San Fernando, California",
+                "STREET ADDRESS": "1135 Aviation Pl, San Fernando, CA 91340",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.421641,
+                    34.2914863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RMS",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Mors Smitt Australia (RMS)",
+                "SITE LOCATION": "Mulgrave, Victoria, AUS",
+                "STREET ADDRESS": "6 Anzed Ct, Mulgrave VIC 3170, Australia",
+                "ERP": "M1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1492628,
+                    -37.9210652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "RPD",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Wabtec Rubber Products",
+                "SITE LOCATION": "Greensburg, PA",
+                "STREET ADDRESS": "269 Donohoe Rd, Greensburg, PA 15601",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.497009,
+                    40.312186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SAC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Santiago, Chile",
+                "SITE LOCATION": "Santiago, Chile",
+                "STREET ADDRESS": "7500532 Providencia, Santiago Metropolitan Region, Chile",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6135902,
+                    -33.4261379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SAN",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "SanCasT",
+                "SITE LOCATION": "Coshocton, Ohio",
+                "STREET ADDRESS": "535 Clow Ln, Coshocton, OH 43812",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.8654875,
+                    40.2450648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SAW",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Wabtec South Africa",
+                "SITE LOCATION": "Kempton Park, South Africa",
+                "STREET ADDRESS": "6 Vuurslag Ave, Spartan, Kempton Park, 1619, South Africa",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.184147,
+                    -26.110927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SCC",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "Swiger Coil",
+                "SITE LOCATION": "Cleveland - OH - USA (Manufacturing Road)",
+                "STREET ADDRESS": "4677 Manufacturing Rd, Cleveland, OH 44135",
+                "ERP": "Syteline"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.810899,
+                    41.429971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SCN",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Schwab",
+                "SITE LOCATION": "Schaffhausen, Switzerland",
+                "STREET ADDRESS": "Ebnatstrasse 150A, 8207 Schaffhausen, Switzerland",
+                "ERP": "Dias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.658438,
+                    47.714403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SCT",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Standard Car Truck",
+                "SITE LOCATION": "Rosemont, IL, USA",
+                "STREET ADDRESS": "6400 Shafer Ct #450, Rosemont, IL 60018",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.8643153,
+                    41.9945897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SEW/SSC",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Schaefer Equipment",
+                "SITE LOCATION": "Warren, OH",
+                "STREET ADDRESS": "1590 Phoenix Rd NE, Warren, OH 44483",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.798587,
+                    41.26244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SGD",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Semvac",
+                "SITE LOCATION": "Odense S, Denmark",
+                "STREET ADDRESS": "Svendborgvej 226, 5260 Odense, Denmark",
+                "ERP": "Navision"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4168445,
+                    55.346803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SJP",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Shijiazhuang Jiaxiang Precision Mach Co",
+                "SITE LOCATION": "Shijiazhuang, China",
+                "STREET ADDRESS": "119 Heng Shan Jie, Yuhua District, Shijiazhuang, Shijiazhuang, Hebei, China, 050036",
+                "ERP": "None"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.4954511,
+                    38.0428027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SLM",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Graham White",
+                "SITE LOCATION": "Salem, VA",
+                "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.0529966,
+                    37.2795274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SPC",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport (U1)",
+                "SITE LOCATION": "Saint Pierre des Corps, France",
+                "STREET ADDRESS": "75 Av. Yves Farge, 37700 Saint-Pierre-des-Corps, France",
+                "ERP": "Octal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.740281,
+                    47.385408
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SRC",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "WGS Columbia",
+                "SITE LOCATION": "Columbia, South Carolina",
+                "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.0260003,
+                    33.9751995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "STS",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Surface Transportation  (Arinc)",
+                "SITE LOCATION": "Annapolis, Maryland",
+                "STREET ADDRESS": "2551 Riva Rd Building 905, Annapolis, MD 21401",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.5500519,
+                    38.9765974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "SYD",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Australia",
+                "SITE LOCATION": "Rydalmere NSW, Australia",
+                "STREET ADDRESS": "Unit 2. 2/8 South St, Rydalmere NSW 2116, Australia",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0322442,
+                    -33.8158033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TAM",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Tamworth",
+                "SITE LOCATION": "Tamworth, United Kingdom",
+                "STREET ADDRESS": "21-22 Darwell Park, Mica Close, Tamworth B77 4DR, United Kingdom",
+                "ERP": "Movex"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6463014,
+                    52.6207834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TAR",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Iberica",
+                "SITE LOCATION": "Tarragona, Spain",
+                "STREET ADDRESS": "Carrer de la Mec�nica, finca 23 Pol�gon Industrial La Drecera, 43470, Tarragona, Spain",
+                "ERP": "IBM Informix Dynamic , PGI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.25,
+                    41.11667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TEX",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Texmaco Rail",
+                "SITE LOCATION": "Khardaha, India",
+                "STREET ADDRESS": "Belgharia, 24 Paragnas (North), Kol - 700 056, West Bengal, India",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.382819,
+                    22.658365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TIM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Turbonetics",
+                "SITE LOCATION": "Moorpark, CA",
+                "STREET ADDRESS": "14399 Princeton Ave, Moorpark, CA 93021",
+                "ERP": "Infor XA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.8593562,
+                    34.2882653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TIQ",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Track IQ",
+                "SITE LOCATION": "Adelaide, Australia",
+                "STREET ADDRESS": "17/19 King William St, Kent Town SA 5067, Australia",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.6169158,
+                    -34.9196038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TJD",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Int'l Distribution",
+                "SITE": "South Africa Regional DC",
+                "SITE LOCATION": "Johannesburg, South Africa",
+                "STREET ADDRESS": "6 Vuurslag Ave, Spartan, Kempton Park, 1619, South Africa",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.184147,
+                    -26.110927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TTC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Thermal Transfer Corp",
+                "SITE LOCATION": "Duquesne, PA",
+                "STREET ADDRESS": "50 N Linden St, Duquesne, PA 15110",
+                "ERP": "Sage Timberline"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.8477374,
+                    40.378462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TXD",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Texas Distribution",
+                "SITE LOCATION": "Fort Worth, TX",
+                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.305248,
+                    33.0328349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TXL",
+                "Ops Leader": "J. Downs",
+                "B/U": "Freight",
+                "SITE": "Texas Locomotive",
+                "SITE LOCATION": "Fort Worth, TX",
+                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.305248,
+                    33.0328349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TXM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Texas OHV",
+                "SITE LOCATION": "Forth Worth, TX",
+                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.305248,
+                    33.0328349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "TXO",
+                "Ops Leader": "J. Downs",
+                "B/U": "Mining",
+                "SITE": "Mining Mfg",
+                "SITE LOCATION": "Fort Worth, TX",
+                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+                "ERP": "Oracle ED"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.305248,
+                    33.0328349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "UNI",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Unifin London (UNC)",
+                "SITE LOCATION": "London, Canada",
+                "STREET ADDRESS": "1030 Clarke Rd, London, Ontario N5V 3B2, CA",
+                "ERP": "ProfitKey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.183489,
+                    43.024649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "UTK",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Unitrac",
+                "SITE LOCATION": "Knoxville, TN",
+                "STREET ADDRESS": "2535 Westcott Blvd, Knoxville, TN 37931",
+                "ERP": "Visual Mfg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.135355,
+                    35.962976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VAD",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Tours (U3)�",
+                "SITE LOCATION": "La Ville aux Dames, France",
+                "STREET ADDRESS": "Rue Am�lia Earhart, 37700 La Ville-aux-Dames, France",
+                "ERP": "Octal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.7648765,
+                    47.3825019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VBI",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Vapor Bus",
+                "SITE LOCATION": "Buffalo Grove, Illinois",
+                "STREET ADDRESS": "1010 Johnson Dr, Buffalo Grove, IL 60089",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9316833,
+                    42.1542574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VCI/VCP",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Vapor Stone Rail Systems Montreal (VCI)",
+                "SITE LOCATION": "Montreal, Canada",
+                "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.700787,
+                    45.497003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VCI/VCP",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Vapor Stone Rail Systems Plattsburgh (VCP)",
+                "SITE LOCATION": "Plattsburgh, NY",
+                "STREET ADDRESS": "72 Arizona Ave, Plattsburgh, NY 12903",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.4571427,
+                    44.6578953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VES",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Vapor Europe",
+                "SITE LOCATION": "Sassuolo, Italy",
+                "STREET ADDRESS": "Viale Regina Pacis 290 Sassuolo, I-41049 Italy",
+                "ERP": "Gipros / ACG"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7961644,
+                    44.5703697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "VRT",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Vapor Rail Turkey",
+                "SITE LOCATION": "Ankara, Turkey",
+                "STREET ADDRESS": "Saray, 06980 Kahramankazan/Ankara, T�rkiye",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.6223045,
+                    40.0519658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WAP",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "FT Australia",
+                "SITE LOCATION": "Kewdale - WA - AUS",
+                "STREET ADDRESS": "16 Ballantyne Rd, Kewdale WA 6105, Australia",
+                "ERP": "Syspro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.9393607,
+                    -31.9841166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WAU",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Australia Limited",
+                "SITE LOCATION": "New South Wales, Australia",
+                "STREET ADDRESS": "Unit 1/2-8 South St, Rydalmere NSW 2116, Australia",
+                "ERP": "Sage 300"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0322442,
+                    -33.8158033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WCM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Control System (C2CE)",
+                "SITE LOCATION": "Adelaide, Australia",
+                "STREET ADDRESS": "Level 1/28 The Esplanade, Perth WA 6000, Australia",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.85735,
+                    -31.95601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WES",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Equipment",
+                "SITE LOCATION": "Sao Paulo, Brazil",
+                "STREET ADDRESS": "Edif�cio Villa Lobos - Alto de Pinheiros, S�o Paulo - SP, 05466, Brazil",
+                "ERP": "K2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.719467,
+                    -23.5530485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WGS",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Wabtec Global Services",
+                "SITE LOCATION": "Pittsburgh, PA",
+                "STREET ADDRESS": "1001 Airbrake Ave, Wilmerding, PA 15148",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.8099883,
+                    40.3950909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WHN",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Wabtec Hunan",
+                "SITE LOCATION": "Changsha, China",
+                "STREET ADDRESS": "Lufeng Rd, Lugu St, Hi-tech Development Zone, Changsha City, Hunan, China",
+                "ERP": "Kingdee"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.9330828,
+                    28.2310931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WHX",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Huaxia (BEJ)",
+                "SITE LOCATION": "Langfang, China",
+                "STREET ADDRESS": "Xin Feng St, Sun Village, Huangcun Town, Huangcun, Beijing, Daxing District 102600, China",
+                "ERP": "Intuitive"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.3711415,
+                    39.96024772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WIT",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Faiveley Transport Bochum",
+                "SITE LOCATION": "Witten, Germany",
+                "STREET ADDRESS": "Sophie-Opel-Stra�e 20, 44803 Bochum, Germany",
+                "ERP": "M3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2588322,
+                    51.4674772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WME",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Motive Equipment (MEI)",
+                "SITE LOCATION": "Milwaukee, WI, USA",
+                "STREET ADDRESS": "8300 W Sleske Ct, Milwaukee, WI 53223",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.0144136,
+                    43.15912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WMS/WMG",
+                "Ops Leader": "M. Thomas",
+                "B/U": "Freight Services",
+                "SITE": "WGS Mexico SLP",
+                "SITE LOCATION": "San Luis Potosi, Mexico",
+                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potos�, S.L.P., Mexico",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.8862005,
+                    22.0859772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WMU/WMX",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "Wabtec de Mexico",
+                "SITE LOCATION": "San Luis Potosi, Mexico",
+                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potos�, S.L.P., Mexico",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.8862005,
+                    22.0859772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WNL",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Wabtec Netherlands",
+                "SITE LOCATION": "Utrecht, Netherlands",
+                "STREET ADDRESS": "Darwinstraat 10, 6718 XR Ede, Netherlands",
+                "ERP": "EPICOR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.6030198,
+                    52.0323287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WPT",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Wabtec Passenger Transit",
+                "SITE LOCATION": "Duncan, South Carolina",
+                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.111872,
+                    34.919319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WRE",
+                "Ops Leader": "C. Strong",
+                "B/U": "Digital Electronics",
+                "SITE": "Wabtec Railway Electronics",
+                "SITE LOCATION": "Germantown, MD",
+                "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.265761,
+                    39.20438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WRL",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "Wabtec Rail LTD",
+                "SITE LOCATION": "Doncaster, United Kingdrom",
+                "STREET ADDRESS": "House, Hexthorpe Rd, Doncaster DN4 0BF, United Kingdom",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.142504,
+                    53.521315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WRM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Faiveley Wabtec Russia",
+                "SITE LOCATION": "Moscow, Russia",
+                "STREET ADDRESS": "Faiveley Transport, Leningrad Region, Moscow, Russia",
+                "ERP": "None"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.6192919,
+                    55.7586642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WTR",
+                "Ops Leader": "",
+                "B/U": "Transit",
+                "SITE": "Wabtec Passenger Transit Service California",
+                "SITE LOCATION": "Richmond, CA",
+                "STREET ADDRESS": "1320 S 51st St, Richmond, CA 94804",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3257488,
+                    37.9132023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "WTT",
+                "Ops Leader": "A. Derbyshire",
+                "B/U": "Transit",
+                "SITE": "TransTech",
+                "SITE LOCATION": "Greenville - SC - USA",
+                "STREET ADDRESS": "46 Beechtree Blvd, Greenville, SC 29605",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.3926937,
+                    34.7551018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "XJC",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Xorail",
+                "SITE LOCATION": "Jacksonville, FL",
+                "STREET ADDRESS": "Carlton Building, 5011 Gate Pkwy # 100-400, Jacksonville, FL 32256",
+                "ERP": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.5341945,
+                    30.2469955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "XMM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Monterrey GEMSR",
+                "SITE LOCATION": "Monterrey, Mexico",
+                "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.1460662,
+                    25.7840592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "XST",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "Saltillo GEMC",
+                "SITE LOCATION": "Saltillo, Mexico",
+                "STREET ADDRESS": "Privada Buenos Aires, Cipreses, 25356 Arteaga, Coahuila, Mexico",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.8913994,
+                    25.4411819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "YMM",
+                "Ops Leader": "",
+                "B/U": "Freight",
+                "SITE": "GEDL Marwohra",
+                "SITE LOCATION": "Marhowra, India",
+                "STREET ADDRESS": "Bazid Bhoraha, Talpuraina, Marhowrah, Bihar 841418, India",
+                "ERP": "Oracle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.8566542,
+                    25.9734065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "YTJ",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "YoungTouchstone Jax",
+                "SITE LOCATION": "Jackson, TN, USA",
+                "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.524796,
+                    36.308689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "IT Site Code": "YTL",
+                "Ops Leader": "D. Cox",
+                "B/U": "Components",
+                "SITE": "YoungTouchstone Lex",
+                "SITE LOCATION": "Lexington, TN",
+                "STREET ADDRESS": "1000 Young Dr, Lexington, TN 38351",
+                "ERP": "Oracle WH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.383065,
+                    35.695153
+                ]
+            }
+        }
+    ]
+}
