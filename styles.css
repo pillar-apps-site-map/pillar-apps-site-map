@@ -11,6 +11,7 @@ body, html {
     width: 100%;
 }
 
+/*
 #info {
     position: absolute;
     top: 0;
@@ -23,7 +24,7 @@ body, html {
     text-align: center;
     color: #222;
     background: #fff;
-}
+}*/
 
 img {
     width: 300px;
@@ -68,25 +69,75 @@ img {
 
 #OpsVision {
     accent-color: #0000FF;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
     /*outline: 1px solid #1e5180*/
 
 }
 #Reliance {
-    accent-color: #FFFF00;
+    accent-color: #FFA500;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
     /*outline: 1px solid #1e5180*/
     
 }
 #Maximo {
-    accent-color: #FFA500;
+    accent-color: #FFFF00;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
     /*outline: 1px solid #1e5180*/
    
 }
 #SCC {
     accent-color: #800080;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
     /*outline: 1px solid #1e5180*/
 }
 #All-Sites {
     accent-color: #FF0000;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
     /*outline: 1px solid #1e5180*/
 }
 
+.popup-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.popup-table th,
+.popup-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.popup-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.popup-table td:first-child {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/*
+.box-outline {
+    border: 1px solid #1e5180; 
+    border-radius:18%;
+    box-sizing: content-box; 
+    padding: 0;
+    margin: 0;
+    width:fit-content;
+    height: fit-content;
+}*/
