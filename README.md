@@ -2,7 +2,7 @@
 
 ## I.	Summary
 
-This web-based, interactive site map was created as a visualization tool for the ongoing deployment of Wabtec’s Pillar Apps (SCC, OpsVision, Reliance, Maximo) around the world. The basemap is provided by Mapbox and the remainder of the features and interactivity were programmed using the app’s client-side JavaScript library, Mapbox GS JL. The Pillar Apps Site Map is currently available for private collaboration via the project’s GitHub repository and can be viewed publicly here.
+This web-based, interactive site map was created as a visualization tool for the ongoing deployment of Wabtec’s Pillar Apps (SCC, OpsVision, Reliance, Maximo) around the world. The basemap is provided by Mapbox and the remainder of the features and interactivity were programmed using the app’s client-side JavaScript library, Mapbox GS JL. 
  
 ## II.	Viewing the Map
 ### a.	Understanding the Map
