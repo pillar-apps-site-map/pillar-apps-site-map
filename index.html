@@ -1,63 +1,88 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html>      
-<head>      
+<html>
 
-    <meta charset='utf-8' />    
+<head>
 
-    <title>Pillar App Site Map</title>     
-  
+    <meta charset='utf-8' />
+
+    <title>Pillar App Site Map</title>
+
     <meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate' />
     <meta http-equiv='Pragma' content='no-cache' />
-    <meta http-equiv='Expires' content='0' />    
-  
+    <meta http-equiv='Expires' content='0' />
+
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css' rel='stylesheet' />    
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css' rel='stylesheet' />
     <link href='styles.css' rel='stylesheet' />
 
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js'></script>
+    <script id="search-js" defer="" src="https://api.mapbox.com/search-js/v1.0.0-beta.20/web.js"></script>
 
 </head>
-<body>      
 
-    <div id='map'></div>
+<body>
 
-    <!-- legend for filtering -->
-    <div class="map-overlay top">
-        <div class="map-overlay-inner">
+    <div class="map-container">
 
-            <fieldset>
-                <label class="visible-layers-label">Visible Layers</label>
-            </fieldset>
-            <fieldset>
-                <div class="box-outline">
-                <input type="checkbox" id="OpsVision" checked="">
-                </div>
-                <label for="OpsVision">OpsVision</label>
-            </fieldset>
-            <fieldset>
-                <input type="checkbox" id="Reliance" checked="">
-                <label for="Reliance">Reliance</label>
-            </fieldset>
-            <fieldset>
-                <input type="checkbox" id="Maximo" checked="">
-                <label for="Maximo">Maximo</label>
-            </fieldset>
-            <fieldset>
-                <input type="checkbox" id="SCC" checked="">
-                <label for="SCC">SCC</label>
-            </fieldset>
-            <fieldset>
-                <input type="checkbox" id="All-Sites" checked="">
-                <label for="All Sites">All Sites</label>
-            </fieldset>
+        <div id='map'></div>
+
+        <!-- legend for filtering -->
+        <div class="map-overlay top">
+            <div class="map-overlay-inner">
+
+                <fieldset>
+                    <label class="visible-layers-label">Visible Layers</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="OpsVision" checked="">
+                    <label for="OpsVision">OpsVision</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="Reliance" checked="">
+                    <label for="Reliance">Reliance</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="Maximo" checked="">
+                    <label for="Maximo">Maximo</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="SCC" checked="">
+                    <label for="SCC">SCC</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="All-Sites" checked="">
+                    <label for="All-Sites">All Sites</label>
+                </fieldset>
+            </div>
         </div>
     </div>
-    
-    <!-- <div id='info'></div> -->
 
-    <script src='map.js'></script>    
+    <script>
+        const ACCESS_TOKEN = 'pk.eyJ1Ijoib2xpdmlhdDEwIiwiYSI6ImNsdXZ3aDYzcjA2bW0yaWwzZ3g2cXA2bWYifQ.YFXEBTfX3eiQrk5pm5qBVQ';
+
+        mapboxgl.accessToken = ACCESS_TOKEN;
+
+        const searchJS = document.getElementById('search-js');
+        searchJS.onload = function () {
+            const searchBox = new MapboxSearchBox();
+            searchBox.accessToken = ACCESS_TOKEN;
+            searchBox.options = {
+                types: 'address,poi',
+                proximity: [-73.99209, 40.68933]
+            };
+
+            //search box
+            map.addControl(searchBox);
+
+            // zoom and rotation controls
+            map.addControl(new mapboxgl.NavigationControl());
+        };
+    </script>
+
+    <script src='map.js'></script>
 
 </body>
+
 </html>

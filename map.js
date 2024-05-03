@@ -1,4 +1,4 @@
-'use strict'      
+'use strict'
 
 console.log('Loaded map.js')
 
@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/standard',
     center: [-70, 20],
-    zoom: 2
+    zoom: 2.3
 });
 
 
@@ -20,71 +20,145 @@ const map = new mapboxgl.Map({
 var master_site_listing_url = "./data/master_site_listing.geojson"
 
 // Load in master site list data
-map.on('load',function(){
-    map.addSource('master_sites_data',{
-      'type':'geojson',
-      'data': master_site_listing_url
-    }); 
-    map.addLayer({ // apply sites layer
-      'id':'All-Sites',
-      'type':'circle',
-      'source':'master_sites_data',
-      'paint':{
-        'circle-radius':2,
-        'circle-color': '#FF0000',
-        'circle-opacity':0.7
-      },
-    })
-  });
-
-    // Toggle 'All Sites' visibility (red checkbox)
-    const allSitesCheckbox = document.getElementById('All-Sites');
-    var layerId; 
-    var visibility;
-
-    allSitesCheckbox.addEventListener('change', function(event) {
-        layerId = this.id;
-        visibility = event.target.checked ? 'visible' : 'none';
-        map.setLayoutProperty(layerId, 'visibility', visibility);
+map.on('load', function () {
+    map.addSource('master_sites_data', {
+        'type': 'geojson',
+        'data': master_site_listing_url
     });
-     
+    map.addLayer({ // apply sites layer
+        'id': 'All-Sites',
+        'type': 'circle',
+        'source': 'master_sites_data',
+        'paint': {
+            'circle-radius': 2.75,
+            'circle-color': '#FF0000',
+            'circle-opacity': 1
+        },
+    })
+});
 
-    /********** PILLAR APP DEPLOYMENTS  **********/
+// Toggle 'All Sites' visibility (red checkbox)
+const allSitesCheckbox = document.getElementById('All-Sites');
+var layerId;
+var visibility;
 
-    // Array to store marker objects
-    var markersByPillarApp = {};
-    
-    // Function to create a marker and add it to the map
-    function createMarker(color, lngLat, popupHTML, pillarApp) {
-        var marker = new mapboxgl.Marker({
-            color: color,
-            scale: 0.5,
-            draggable: false
-        }).setLngLat(lngLat)
-            .setPopup(new mapboxgl.Popup().setHTML(popupHTML))
-            .addTo(map);
-    
-        if (!markersByPillarApp[pillarApp]) {
-            markersByPillarApp[pillarApp] = [];
-        }
-        // Store markers
-        markersByPillarApp[pillarApp].push(marker);
+allSitesCheckbox.addEventListener('change', function (event) {
+    layerId = this.id;
+    visibility = event.target.checked ? 'visible' : 'none';
+    map.setLayoutProperty(layerId, 'visibility', visibility);
+});
+
+
+/********** PILLAR APP DEPLOYMENTS  **********/
+
+// To store marker objects by Pillar App (for keeping seperate layers)
+var markersByPillarApp = {};
+
+// To store markers grouped by coordinates (to clarify overlapping markers)
+var markersByCoordinate = {};
+
+// Create a marker and add it to the map
+function createMarker(color, lngLat, popupHTML, pillarApp) {
+
+    // Generate unique key for the coordinates
+    var coordinateKey = lngLat.join(',');
+
+    // Check if markers already exist at this coordinate
+    if (!markersByCoordinate[coordinateKey]) {
+        // If no markers, new array to store markers
+        markersByCoordinate[coordinateKey] = [];
     }
-    
-    // Function to fetch Pillar App data and add markers
-    function fetchAndAddMarkers(url) {
-        return fetch(url)
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                data.features.forEach(function (feature) {
-                    // Prep data to create new marker
-                    var pillarApp = feature.properties['Pillar App'];
-                    var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
-                    
-                    // Marker popup info
-                    var popupHTML = `
+
+    // # existing markers
+    var existingMarkers = markersByCoordinate[coordinateKey].length;
+
+    // Adjust lngLat slightly for subsequent markers 
+    // (so that when zoomed closely, viewer can see multiple points at the same site)
+    if (existingMarkers > 0) {
+        var offset1 = (Math.random() * 0.0001) * existingMarkers;
+        var offset2 = (Math.random() * 0.0001) * existingMarkers; 
+        lngLat[0] += offset1; // offset longitude slightly
+        lngLat[1] += offset2; // offset latitude slightly
+    }
+
+    // Store new marker at this coordinate
+    markersByCoordinate[coordinateKey].push({
+        marker: marker,
+        pillarApp: pillarApp
+    });
+
+    // Create new marker & fill popup data
+    var marker = new mapboxgl.Marker({
+        color: color,
+        scale: 0.6,
+        draggable: false
+    }).setLngLat(lngLat)
+        .setPopup(new mapboxgl.Popup().setHTML(popupHTML + getMarkerPopupHTML(coordinateKey)))
+        .addTo(map);
+
+    // Click event listener for marker
+    marker.getElement().addEventListener('click', function () {
+        // Fly to a clicked marker's location
+        map.flyTo({
+            center: lngLat,
+            zoom: 10,
+            essential: true
+        });
+    });
+
+    // hover over marker to view popup
+    marker.getElement().addEventListener('mouseenter', function () {
+        marker.getPopup().addTo(map);
+    });
+
+    // popup disappears when mouse leaves marker
+    marker.getElement().addEventListener('mouseleave', function () {
+        marker.getPopup().remove();
+    });
+
+    // Create new layer for markers if one does not exist already
+    if (!markersByPillarApp[pillarApp]) {
+        markersByPillarApp[pillarApp] = [];
+    }
+    // Store new marker by Pillar App 
+    markersByPillarApp[pillarApp].push(marker);
+
+}
+
+// Display all Pillar Apps at single site in the marker popup
+function getMarkerPopupHTML(coordinateKey) {
+    // Array of markers that share same coordinates
+    var markers = markersByCoordinate[coordinateKey];
+
+    // Extract unique Pillar Apps (dupe checking)
+    var uniquePillarApps = Array.from(new Set(markers.map(item => item.pillarApp)));
+
+    // Generate string to note any overlapping markers
+    var popupHTML = ''; 
+    uniquePillarApps.forEach(function (pillarApp) {
+        var color = getColorForPillarApp(pillarApp);
+
+        popupHTML += `<svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="${color}"/></svg>
+                 ${pillarApp}&nbsp&nbsp&nbsp`;
+
+    });
+    return popupHTML;
+}
+
+// Fetch Pillar App data and add markers
+function fetchAndAddMarkers(url) {
+    return fetch(url)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            data.features.forEach(function (feature) {
+                // Prep data to create new marker
+                var pillarApp = feature.properties['Pillar App'];
+                var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
+
+                // Marker popup info
+                var popupHTML = `
                     <div class="popup-content">
                         <h3>${feature.properties['SITE']}</h3>
                         <table class="popup-table">
@@ -93,8 +167,6 @@ map.on('load',function(){
                                 <th>Value</th>
                             </tr>
                             <tr>
-                                <td>Pillar App</td>
-                                <td>${feature.properties['Pillar App']}</td>
                             </tr>
                             <tr>
                                 <td>IT Site Code</td>
@@ -119,32 +191,32 @@ map.on('load',function(){
                         </table>
                     </div>`;
 
-                    // Assign marker color based on Pillar App
-                    var color;
-                    switch (pillarApp) {
-                        case 'OpsVision MES':
-                        case 'OpsVision Smart Manufacturing':
-                            color = '#00008B';
-                            pillarApp = 'OpsVision';
-                            break;
-                        case 'Reliance':
-                            color = '#FFA500';
-                            break;
-                        case 'Maximo':
-                            color = '#FFFF00';
-                            break;
-                        case 'SCC (Phase 1)':
-                        case 'SCC (Phase 2)':
-                            color = '#800080';
-                            pillarApp = 'SCC';
-                            break;
-                        default:
-                            color = '#000000';
-                    }
-                    createMarker(color, lngLat, popupHTML, pillarApp);
-                });
+                // Assign marker color based on Pillar App
+                var color;
+                switch (pillarApp) {
+                    case 'OpsVision MES':
+                    case 'OpsVision Smart Manufacturing':
+                        color = '#00008B';
+                        pillarApp = 'OpsVision';
+                        break;
+                    case 'Reliance':
+                        color = '#FFA500';
+                        break;
+                    case 'Maximo':
+                        color = '#FFFF00';
+                        break;
+                    case 'SCC (Phase 1)':
+                    case 'SCC (Phase 2)':
+                        color = '#800080';
+                        pillarApp = 'SCC';
+                        break;
+                    default:
+                        color = '#000000';
+                }
+                createMarker(color, lngLat, popupHTML, pillarApp);
             });
-    }
+        });
+}
 
 // Event listener for Pillar App checkbox changes
 document
@@ -154,7 +226,7 @@ document
             const pillarApp = checkbox.id;
             const visibility = checkbox.checked ? 'visible' : 'none';
 
-            // Check if markers for this pillar app exist
+            // Check if markers for this pillar app exist 
             if (markersByPillarApp[pillarApp]) {
                 markersByPillarApp[pillarApp].forEach(function (marker) {
                     marker.getElement().style.display = visibility === 'visible' ? 'block' : 'none';
@@ -166,3 +238,18 @@ document
 // Add markers for Pillar App data
 fetchAndAddMarkers('./data/app_deployment.geojson');
 
+// Fetch color
+function getColorForPillarApp(pillarApp) {
+    switch (pillarApp) {
+        case 'OpsVision':
+            return '#00008B';
+        case 'Reliance':
+            return '#FFA500';
+        case 'Maximo':
+            return '#FFFF00';
+        case 'SCC':
+            return '#800080';
+        default:
+            return '#000000';
+    }
+}
