@@ -24,7 +24,8 @@ img {
     min-width: fit-content;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 50px;
 }
 
 .map-overlay .map-overlay-inner {
@@ -154,3 +155,11 @@ body {
     color: white;
 }
 */
+
+#menu {
+    position: absolute;
+    background: #efefef;
+    padding: 10px;
+    font: 'Calisto MT';
+    font-size: 14px;
+}
