@@ -20,6 +20,8 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js'></script>
     <script id="search-js" defer="" src="https://api.mapbox.com/search-js/v1.0.0-beta.20/web.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
 </head>
 
 <body>
@@ -54,19 +56,61 @@
                 <fieldset>
                     <input type="checkbox" id="All-Sites" checked="">
                     <label for="All-Sites">All Sites</label>
-                </fieldset>
+                </fieldset><br>
             </div>
         </div>
 
-         <div id="menu">
-            <input id="streets-v12" type="radio" name="rtoggle" value="streets" checked="checked">
-            <label for="streets-v12">Streets</label>
-            <input id="satellite-streets-v12" type="radio" name="rtoggle" value="satellite">
-            <label for="satellite-streets-v12">Satellite</label>
-            <input id="light-v11" type="radio" name="rtoggle" value="light">
-            <label for="light-v11">Light</label>
-            <input id="dark-v11" type="radio" name="rtoggle" value="dark">
-            <label for="dark-v11">Dark</label>
+        <!--Map settings dropdowns-->
+        <div class="dropdown-container">
+
+            <div id="projection-dropdown">
+                <label for="projection-select">Projection</label><br>
+                <select id="projection-select">
+                    <option value="globe">3D Globe</option>
+                    <option value="naturalEarth">Flat Map</option>
+                </select>
+            </div>
+
+            <div id="menu">
+                <label for="map-type-select">Map Style</label><br>
+                <select id="map-type-select">
+                    <option value="streets-v12">Standard</option>
+                    <option value="satellite-streets-v12">Satellite</option>
+                    <option value="light-v11">Light</option>
+                    <option value="dark-v11">Dark</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!--"Upload Data" button-->
+        <div class="file-upload-container">
+            <button  onclick="showPopup('upload-popup')"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</button>
+        </div>
+
+        <!-- Popup containers -->
+        <div id="upload-popup" class="popup-container">
+            <span class="close-btn" onclick="hidePopup('upload-popup')"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
+            <label id="upload-data-popup-label"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</label>
+            <br>
+            <p class="subtext"><strong>Note: Changes to the datasets used in this map will reflect for all users.</strong><br><br>
+            Use the latest version of the "masterSiteListing" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to 
+            update the master site listing data (save and upload a .csv copy). <br><br>
+
+            Use the latest version of the "Current install base" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to update
+            the master site listing data (save and upload a .csv copy).
+            </p>
+            <form>
+                <label for="master-sites-upload" class="subtext"><strong>Master Site List</strong></label><br>
+                <input type="file" id="master-sites-upload" name="master-sites-upload" accept=".csv" />
+                <input type="button" id="apply-master-sites-upload" value="Apply">
+            </form>
+            <br>
+            <form>
+                <label for="app-deployment-upload" class="subtext"><strong>Pillar App Deployment Data</strong></label><br>
+                <input type="file" id="app-deployment-upload" name="app-deployment-upload" accept=".csv" />
+                <input type="button" id="apply-app-deployment-upload" value="Apply">
+            </form>
         </div>
         
     </div>

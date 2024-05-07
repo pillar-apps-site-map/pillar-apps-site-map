@@ -13,15 +13,34 @@ const map = new mapboxgl.Map({
     zoom: 2.3
 });
 
-const layerList = document.getElementById('menu');
-const inputs = layerList.getElementsByTagName('input');
+// Get reference to the select element
+const mapTypeSelect = document.getElementById('map-type-select');
 
-for (const input of inputs) {
-    input.onclick = (layer) => {
-        const layerId = layer.target.id;
-        map.setStyle('mapbox://styles/mapbox/' + layerId);
-    };
-}
+// Event listener for dropdown change
+mapTypeSelect.addEventListener('change', function () {
+    // Get the selected value from the map style dropdown
+    const selectedMapType = mapTypeSelect.value;
+
+    // Update the map style based on the selected value
+    map.setStyle('mapbox://styles/mapbox/' + selectedMapType);
+});
+
+// Get reference to the select element
+const projectionSelect = document.getElementById('projection-select');
+
+// Event listener for projection dropdown change
+projectionSelect.addEventListener('change', function () {
+    // Get selected value from projection dropdown
+    const selectedProjection = projectionSelect.value;
+
+    // Update projection property based on selection
+    map.setProjection(selectedProjection);
+    if(selectedProjection=='naturalEarth') {
+        map.setCenter([-25,25]);
+    } else{
+        map.setCenter([-70,20]);
+    }
+});
 
 
 /********** FULL SITE LISTING  **********/
@@ -30,7 +49,7 @@ for (const input of inputs) {
 var master_site_listing_url = "./data/master_site_listing.geojson"
 
 // Load in master site list data
-map.on('load', function () {
+map.on('style.load', function () {
     map.addSource('master_sites_data', {
         'type': 'geojson',
         'data': master_site_listing_url
@@ -263,3 +282,72 @@ function getColorForPillarApp(pillarApp) {
             return '#000000';
     }
 }
+
+// Show the popup when Upload Data button is clicked
+function showPopup(popupId) {
+    // Hide all popups
+    document.querySelectorAll('.popup-container').forEach(function (popup) {
+        popup.classList.remove('show');
+    });
+    // Show the clicked popup
+    document.getElementById(popupId).classList.add('show');
+}
+
+// Hide the popup when close button (X) is clicked
+function hidePopup(popupId) {
+    document.getElementById(popupId).classList.remove('show');
+}
+
+// Convert uploaded CSV file to GeoJSON
+function convertCSVtoGeoJSON(fileInputId, callback) {
+    const fileInput = document.getElementById(fileInputId);
+    const file = fileInput.files[0];
+
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        const csvString = event.target.result;
+
+        // Parse CSV using PapaParse
+        Papa.parse(csvString, {
+            header: true,
+            complete: function(results) {
+                // Map CSV data to GeoJSON format
+                const geojson = {
+                    type: "FeatureCollection",
+                    features: results.data.map(function(row) {
+                        return {
+                            type: "Feature",
+                            geometry: {
+                                type: "Point",
+                                coordinates: [parseFloat(row.LONGITUDE), parseFloat(row.LATITUDE)]
+                            },
+                            properties: row
+                        };
+                    })
+                };
+                callback(null, geojson);
+            },
+            error: function(error) {
+                console.error('Error parsing CSV:', error);
+                callback(error);
+            }
+        });
+    };
+    reader.readAsText(file);
+}
+
+// Event listeners for upload buttons
+document.getElementById('apply-master-sites-upload').addEventListener('click', function () {
+    convertCSVtoGeoJSON('master-sites-upload', function (err, geojson) {
+        if (!err) {
+            console.log('Successfully converted CSV to GeoJSON:', geojson);
+        }
+    });
+});
+document.getElementById('apply-app-deployment-upload').addEventListener('click', function () {
+    convertCSVtoGeoJSON('app-deployment-upload', function (err, geojson) {
+        if (!err) {
+            console.log('Successfully converted CSV to GeoJSON:', geojson);
+        }
+    });
+});
