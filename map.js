@@ -298,6 +298,43 @@ function hidePopup(popupId) {
     document.getElementById(popupId).classList.remove('show');
 }
 
+// add or update map source and layer
+function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer) {
+    // check if source already exists
+    if (map.getSource(sourceId)) {
+        // if source exists update the data
+        map.getSource(sourceId).setData(geojson);
+    } else {
+        // if source doesn't exist, add new source and layer/marker
+        if (isLayer) {
+            // Add as a layer
+            map.addSource(sourceId, {
+                'type': 'geojson',
+                'data': geojson
+            });
+            map.addLayer({
+                'id': sourceId,
+                'type': 'circle',
+                'source': sourceId,
+                'paint': {
+                    'circle-radius': 2.75,
+                    'circle-color': '#FF0000',
+                    'circle-opacity': 1
+                },
+            });
+        } else {
+            // add as a marker
+            geojson.features.forEach(function (feature) {
+                var pillarApp = feature.properties['Pillar App'];
+                var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
+                var popupHTML = '' /* add marker popup HTML */;
+                var color = getColorForPillarApp(pillarApp);
+                createMarker(color, lngLat, popupHTML, pillarApp);
+            });
+        }
+    }
+}
+
 // Convert uploaded CSV file to GeoJSON
 function convertCSVtoGeoJSON(fileInputId, callback) {
     const fileInput = document.getElementById(fileInputId);
@@ -336,11 +373,12 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
     reader.readAsText(file);
 }
 
-// Event listeners for upload buttons
+// event listeners for upload buttons
 document.getElementById('apply-master-sites-upload').addEventListener('click', function () {
     convertCSVtoGeoJSON('master-sites-upload', function (err, geojson) {
         if (!err) {
             console.log('Successfully converted CSV to GeoJSON:', geojson);
+            addOrUpdateSourceAndLayer('master_site_listing', geojson, true);
         }
     });
 });
@@ -348,6 +386,49 @@ document.getElementById('apply-app-deployment-upload').addEventListener('click',
     convertCSVtoGeoJSON('app-deployment-upload', function (err, geojson) {
         if (!err) {
             console.log('Successfully converted CSV to GeoJSON:', geojson);
+            addOrUpdateSourceAndLayer('app_deployment', geojson, false);
         }
     });
 });
+
+// password validation
+function authenticate() {
+    const password = document.getElementById('password').value;
+    const correctPassword = 'IsabellaSt';
+
+    if (password === correctPassword) {
+        document.getElementById('authentication-form').style.display = 'none';
+        document.getElementById('upload-data').style.display = 'block';
+        document.getElementById('password').value = '';
+        document.getElementById('error-message').style.display = 'none';
+    } else {
+        document.getElementById('error-message').style.display = 'block';
+        document.getElementById('upload-data').style.display = 'none';
+    }
+}
+
+// handle Enter key press
+function handleEnterKey(event) {
+    if (event.key === 'Enter') {
+        authenticate();
+    }
+}
+
+// event listener for password input field
+document.getElementById('password').addEventListener('keypress', handleEnterKey);
+
+// toggle password visibility
+function togglePasswordVisibility() {
+    const passwordInput = document.getElementById('password');
+    const showPasswordCheckbox = document.getElementById('show-password');
+
+    if (showPasswordCheckbox.checked) {
+        passwordInput.type = 'text';
+    } else {
+        passwordInput.type = 'password';
+    }
+}
+
+// event listener for show password checkbox
+document.getElementById('show-password').addEventListener('change', togglePasswordVisibility);
+

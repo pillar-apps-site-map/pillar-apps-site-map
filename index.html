@@ -90,27 +90,43 @@
 
         <!-- Popup containers -->
         <div id="upload-popup" class="popup-container">
-            <span class="close-btn" onclick="hidePopup('upload-popup')"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
-            <label id="upload-data-popup-label"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</label>
-            <br>
-            <p class="subtext"><strong>Note: Changes to the datasets used in this map will reflect for all users.</strong><br><br>
-            Use the latest version of the "masterSiteListing" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to 
-            update the master site listing data (save and upload a .csv copy). <br><br>
 
-            Use the latest version of the "Current install base" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to update
-            the master site listing data (save and upload a .csv copy).
-            </p>
-            <form>
-                <label for="master-sites-upload" class="subtext"><strong>Master Site List</strong></label><br>
-                <input type="file" id="master-sites-upload" name="master-sites-upload" accept=".csv" />
-                <input type="button" id="apply-master-sites-upload" value="Apply">
-            </form>
-            <br>
-            <form>
-                <label for="app-deployment-upload" class="subtext"><strong>Pillar App Deployment Data</strong></label><br>
-                <input type="file" id="app-deployment-upload" name="app-deployment-upload" accept=".csv" />
-                <input type="button" id="apply-app-deployment-upload" value="Apply">
-            </form>
+            <span class="close-btn" onclick="hidePopup('upload-popup')"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
+
+            <div id="authentication-form">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <div class="row">
+                    <input type="checkbox" id="show-password">
+                    <label for="show-password"> Show Password</label>
+                </div><br>
+                <button onclick="authenticate()">Submit</button>
+                <p id="error-message">Incorrect password!</p>
+            </div>
+
+            <div id="upload-data" style="display: none;">
+
+                <label id="upload-data-popup-label"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</label>
+                <hr>
+                <p class="subtext"><strong>Note: Changes to the datasets used in this map will reflect for all users.</strong><br><br>
+                Use the latest version of the "masterSiteListing" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to 
+                update the master site listing data (save and upload a .csv copy). <br><br>
+
+                Use the latest version of the "Current install base" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to update
+                the master site listing data (save and upload a .csv copy).
+                </p>
+                <form>
+                    <label for="master-sites-upload" class="subtext"><strong>Master Site List</strong></label><br>
+                    <input type="file" id="master-sites-upload" name="master-sites-upload" accept=".csv" />
+                    <input type="button" id="apply-master-sites-upload" value="Apply">
+                </form>
+                <br>
+                <form>
+                    <label for="app-deployment-upload" class="subtext"><strong>Pillar App Deployment Data</strong></label><br>
+                    <input type="file" id="app-deployment-upload" name="app-deployment-upload" accept=".csv" />
+                    <input type="button" id="apply-app-deployment-upload" value="Apply">
+                </form>
+            </div>
         </div>
         
     </div>

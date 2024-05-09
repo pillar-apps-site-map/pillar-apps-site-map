@@ -158,7 +158,7 @@ h3 {
     top: 12px; 
     right: 320px; 
     font-family: 'Calisto MT';
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 
 button {
@@ -192,9 +192,14 @@ button {
     top: 25%;
     padding: 50px;
     font-family: 'Calisto MT';
-    font-size: 24px;
+    /*font-size: 24px;*/
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#upload-data-popup-label {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .popup-container.show {
@@ -211,4 +216,69 @@ button {
     right: 10px;
     cursor: pointer;
     padding: 10px;
+}
+
+/* CSS for password authentication form */
+#authentication-form {
+    margin-bottom: 20px;
+}
+
+#authentication-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#authentication-form input[type="password"],
+#authentication-form input[type="text"] {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box; 
+}
+
+#authentication-form #show-password {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#authentication-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#authentication-form button:hover {
+    background-color: #45a049;
+}
+
+#authentication-form p#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+#authentication-form .toggle-password-label {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#authentication-form .toggle-password-label:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    align-items:flex-start;
+}
+
+#password label {
+    font-size: 20px;
 }
