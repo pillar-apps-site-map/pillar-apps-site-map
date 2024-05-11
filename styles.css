@@ -282,3 +282,8 @@ button {
 #password label {
     font-size: 20px;
 }
+
+.search-bar {
+    right: 10px;
+    top: 10px;
+}

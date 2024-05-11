@@ -85,13 +85,13 @@
 
         <!--"Upload Data" button-->
         <div class="file-upload-container">
-            <button  onclick="showPopup('upload-popup')"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</button>
+            <button  id="upload-data-button"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</button>
         </div>
 
         <!-- Popup containers -->
         <div id="upload-popup" class="popup-container">
 
-            <span class="close-btn" onclick="hidePopup('upload-popup')"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
+            <span class="close-btn"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
 
             <div id="authentication-form">
                 <label for="password">Password:</label>
@@ -100,7 +100,7 @@
                     <input type="checkbox" id="show-password">
                     <label for="show-password"> Show Password</label>
                 </div><br>
-                <button onclick="authenticate()">Submit</button>
+                <button id="submit-authentication">Submit</button>
                 <p id="error-message">Incorrect password!</p>
             </div>
 
@@ -131,29 +131,9 @@
         
     </div>
 
-    <script>
-        const ACCESS_TOKEN = 'pk.eyJ1Ijoib2xpdmlhdDEwIiwiYSI6ImNsdXZ3aDYzcjA2bW0yaWwzZ3g2cXA2bWYifQ.YFXEBTfX3eiQrk5pm5qBVQ';
+    <div class="search-bar"></div>
 
-        mapboxgl.accessToken = ACCESS_TOKEN;
-
-        const searchJS = document.getElementById('search-js');
-        searchJS.onload = function () {
-            const searchBox = new MapboxSearchBox();
-            searchBox.accessToken = ACCESS_TOKEN;
-            searchBox.options = {
-                types: 'address,poi',
-                proximity: [-73.99209, 40.68933]
-            };
-
-            //search box
-            map.addControl(searchBox);
-
-            // zoom and rotation controls
-            map.addControl(new mapboxgl.NavigationControl());
-        };
-    </script>
-
-    <script src='map.js'></script>
+    <script src="map.mjs" type="module"></script>
 
 </body>
 
