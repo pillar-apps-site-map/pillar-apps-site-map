@@ -87,6 +87,10 @@ img {
     accent-color: #FF0000;
 }
 
+#AWS {
+    accent-color: #00000F;
+}
+
 .popup-table {
     border-collapse: collapse;
     width: 100%;
@@ -183,11 +187,10 @@ button {
     width: 60%;
     height: fit-content;
     position: absolute;
-    left: 20%;
+    left: 22%;
     top: 25%;
     padding: 50px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /*font-size: 24px;*/
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -293,21 +296,18 @@ button {
     left: 50%;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transform: translateX(-50%);
-    background-color: rgba(0, 169, 0, 0.9); /* Green color with some transparency */
-    color: white; /* White text color */
-    padding: 10px 20px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
-    z-index: 1000; /* Ensure it's above other elements */
+    background-color: rgba(0, 169, 0, 0.9); 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
     display: inline-block;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease-in-out; /* Smooth fade in/out */
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
 }
 
 .apply {
-    /*background-color: #929292; 
-    border: none;
-    color: white;*/
     border-width: 1px;
     padding: 6px 16px;
     text-align: center;
@@ -331,7 +331,6 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-/* Add this CSS to your existing styles.css file */
 .info-icon {
     width: 16px;
     height: 16px;
@@ -340,7 +339,7 @@ a:link, a:visited {
 }
 
 .info-icon:hover + .subtext::after {
-    opacity: 1; /* Show tooltip on hover */
+    opacity: 1; 
 }
 
 .tooltip {
@@ -354,13 +353,17 @@ a:link, a:visited {
     width: 300px;
 }
 
-/* Position the tooltip relative to its container */
 .tooltip-container {
     position: relative;
-    display: inline-block; /* Ensures the container takes only the necessary space */
+    display: inline-block; 
 }
 
-/* Show the tooltip when hovering over the container */
 .tooltip-container:hover .tooltip {
     display: block;
+}
+
+.count {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
 }

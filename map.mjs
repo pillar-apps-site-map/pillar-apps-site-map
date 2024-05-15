@@ -64,7 +64,7 @@ map.on('style.load', function () {
             'circle-color': '#FF0000',
             'circle-opacity': 1
         },
-    })
+    });
 });
 
 /********** PILLAR APP DEPLOYMENTS (MARKER SETS) **********/
@@ -75,8 +75,32 @@ var markersByPillarApp = {};
 // To store markers grouped by coordinates (to clarify overlapping markers)
 var markersByCoordinate = {};
 
+// marker/pillar app counts
+var pillarAppCounts = {};
+
+// Function to update legend with pillar app counts
+function updateLegendAppCounts() {
+    // Iterate through each pillar app checkbox in the legend
+    document.querySelectorAll('.map-overlay-inner input[type="checkbox"]').forEach((checkbox) => {
+        if (checkbox.id==='All-Sites') return;
+        const pillarApp = checkbox.id.replaceAll('-', ' ');
+        var count = pillarAppCounts[pillarApp];
+        
+        // Get the legend element
+        const appCountsLegend = document.getElementById(checkbox.id + '-Count');
+        // Update the text content to display the count
+        appCountsLegend.innerText = `${count}`;
+
+    });
+}
+
 // Create a marker and add it to the map
 function createMarker(color, lngLat, popupHTML, pillarApp) {
+
+    updateLegendAppCounts();
+
+    // Increment count for this pillar app
+    pillarAppCounts[pillarApp] = (pillarAppCounts[pillarApp] || 0) + 1;
 
     // Generate unique key for the coordinates
     var coordinateKey = lngLat.join(',');
@@ -208,9 +232,6 @@ function fetchAndAddMarkers(url) {
             return response.json();
         })
         .then(function (data) {
-            
-            //console.log('Fetched data:', data);
-
             data.features.forEach(function (feature) {
                 // Prep data to create new marker
                 var pillarApp = feature.properties['Pillar App'];
@@ -247,7 +268,7 @@ function getColorForPillarApp(pillarApp) {
         case 'SCC Phase 2':
             return '#b100b1';
         /*case 'AWS':
-            return '#146eb4';*/
+            return '#00000F';*/
         default:
             return '#000000';
     }
@@ -446,17 +467,49 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
     reader.readAsText(file);
 }
 
-/*****LOCAL STORAGE*****/
+// Function to reset pillar app counts
+function resetPillarAppCounts() {
+    for (const pillarApp in pillarAppCounts) {
+        if (pillarAppCounts.hasOwnProperty(pillarApp)) {
+            pillarAppCounts[pillarApp] = 0;
+        }
+    }
+}
 
-// Call the function to load GeoJSON from localStorage when the page loads
-window.addEventListener('load', loadGeoJSONFromLocalStorage);
+/*****LOCAL STORAGE*****/
 
 // Event listener for map style change
 map.on('load', function () {
     // Reload the uploaded data layers when the map style changes
-    loadGeoJSONFromLocalStorage();
+    loadAndStoreGeoJSON();
+    //loadGeoJSONFromLocalStorage();
 });
 
+function loadAndStoreGeoJSON() {
+    fetch('./data/master_site_listing.geojson')
+    .then(response => response.json())
+    .then(masterSitesGeoJSON => {
+        // Store master sites GeoJSON in local storage
+        storeGeoJSONInLocalStorage('/master_sites_upload', masterSitesGeoJSON);
+        // Update the map with the master sites data
+        addOrUpdateSourceAndLayer('master_sites_data', masterSitesGeoJSON, true, 'visible');
+    })
+    .catch(error => console.error('Error loading master site listing:', error));
+
+    // Load app deployment GeoJSON from file
+    fetch('./data/app_deployment.geojson')
+        .then(response => response.json())
+        .then(appDeploymentGeoJSON => {
+            // Store app deployment GeoJSON in local storage
+            storeGeoJSONInLocalStorage('/app_deployment_upload', appDeploymentGeoJSON);
+        })
+        .catch(error => console.error('Error loading app deployment data:', error));
+
+        // reflect counts in legend
+        updateAllSitesCount();
+    }
+
+/*
 // Load GeoJSON from localStorage with prefixed keys when the page loads
 function loadGeoJSONFromLocalStorage() {
     // Retrieve GeoJSON data with prefixed keys
@@ -470,23 +523,39 @@ function loadGeoJSONFromLocalStorage() {
         map.on('style.load', function() {
             // Update the map with the retrieved GeoJSON data
             addOrUpdateSourceAndLayer('master_sites_data', masterSitesGeoJSON, true, 'visible');
+            //updateAllSitesCount();
         });
-    }
+    } 
 
     if (appDeploymentGeoJSON) {
         map.on('style.load', function() {
             // Update the map with the retrieved GeoJSON data
             addOrUpdateSourceAndLayer('app_deployment', appDeploymentGeoJSON, false, 'visible');
+            //updateAllSitesCount();
         });
     }
+}*/
+
+function updateAllSitesCount() {
+    const allSitesData = map.getSource('master_sites_data')._data;
+    const siteCount = allSitesData.features.length;
+    updateLegendAllSites(siteCount);
 }
 
+function updateLegendAllSites(count) {
+    // Get the legend element
+    const allSitesLegend = document.getElementById('All-Sites-Count');
+    // Update the text content to display the count
+    allSitesLegend.innerText = `${count}`;
+}
+
+/*
 // Update the function to retrieve GeoJSON data from localStorage with prefixed keys
 function getGeoJSONFromLocalStorage(key) {
     // Use prefixed key provided by github-pages-local-storage library
     const storedData = localStorage.getItem(key);
     return storedData ? JSON.parse(storedData) : null;
-}
+}*/
 
 // Update the function to store GeoJSON in localStorage with prefixed keys
 function storeGeoJSONInLocalStorage(key, geojson) {
@@ -496,7 +565,7 @@ function storeGeoJSONInLocalStorage(key, geojson) {
 
 // Update the event listeners for upload buttons to store data in localStorage with prefixed keys & update map
 document.getElementById('apply-master-sites-upload').addEventListener('click', function () {
-    
+
     localStorage.removeItem('/master_sites_upload');
 
     convertCSVtoGeoJSON('master-sites-upload', function (err, geojson) {
@@ -506,6 +575,7 @@ document.getElementById('apply-master-sites-upload').addEventListener('click', f
             storeGeoJSONInLocalStorage('/master_sites_upload', geojson);
             // Update the map with the new data
             addOrUpdateSourceAndLayer('master_sites_data', geojson, true, 'visible');
+            updateAllSitesCount();
         }
     });
     showSuccessMessage('Changes applied successfully.', 'master-message');
@@ -513,6 +583,8 @@ document.getElementById('apply-master-sites-upload').addEventListener('click', f
 
 document.getElementById('apply-app-deployment-upload').addEventListener('click', function () {
     
+    resetPillarAppCounts();
+
     localStorage.removeItem('/app_deployment_upload');
 
     convertCSVtoGeoJSON('app-deployment-upload', function (err, geojson) {
@@ -522,6 +594,7 @@ document.getElementById('apply-app-deployment-upload').addEventListener('click',
             storeGeoJSONInLocalStorage('/app_deployment_upload', geojson);
             // Update the map with the new data
             addOrUpdateSourceAndLayer('app_deployment', geojson, false, 'visible');
+            updateAllSitesCount();
         }
     });
     showSuccessMessage('Changes applied successfully.', 'master-message');
@@ -547,6 +620,8 @@ function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
                     'circle-opacity': 1
                 }
             });
+            const siteCount = geojson.features.length;
+            updateLegendAllSites(siteCount);
             return;
         }
 
@@ -581,7 +656,7 @@ function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
     function removeMarkersByPillarApp(pillarApp) {
         if (markersByPillarApp[pillarApp]) {
             markersByPillarApp[pillarApp].forEach(function (marker) {
-                marker.remove(); // Remove marker from map
+                marker.remove(); // remove marker from map
             });
         }
     }
