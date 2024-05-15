@@ -163,6 +163,44 @@ function getMarkerPopupHTML(coordinateKey) {
     return popupHTML;
 }
 
+// Function to generate popup HTML content
+function generatePopupHTML(feature) {
+    return `
+        <div class="popup-content">
+            <h3>${feature.properties['SITE']}</h3>
+            <table class="popup-table">
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>IT Site Code</td>
+                    <td>${feature.properties['IT Site Code']}</td>
+                </tr>
+                <tr>
+                    <td>B/U</td>
+                    <td>${feature.properties['B/U']}</td>
+                </tr>
+                <tr>
+                    <td>Ops Leader</td>
+                    <td>${feature.properties['Ops Leader']}</td>
+                </tr>
+                <tr>
+                    <td>ERP</td>
+                    <td>${feature.properties['ERP']}</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>${feature.properties['STREET ADDRESS']}</td>
+                </tr>
+                <tr>
+                    <td>Products</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>`;
+}
+
 // Fetch Pillar App data and add markers
 function fetchAndAddMarkers(url) {
     return fetch(url)
@@ -170,72 +208,24 @@ function fetchAndAddMarkers(url) {
             return response.json();
         })
         .then(function (data) {
+            
+            //console.log('Fetched data:', data);
+
             data.features.forEach(function (feature) {
                 // Prep data to create new marker
                 var pillarApp = feature.properties['Pillar App'];
                 var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
 
                 // Marker popup info
-                var popupHTML = `
-                    <div class="popup-content">
-                        <h3>${feature.properties['SITE']}</h3>
-                        <table class="popup-table">
-                            <tr>
-                                <th>Property</th>
-                                <th>Value</th>
-                            </tr>
-                            <tr>
-                            </tr>
-                            <tr>
-                                <td>IT Site Code</td>
-                                <td>${feature.properties['IT Site Code']}</td>
-                            </tr>
-                            <tr>
-                                <td>B/U</td>
-                                <td>${feature.properties['B/U']}</td>
-                            </tr>
-                            <tr>
-                                <td>Ops Leader</td>
-                                <td>${feature.properties['Ops Leader']}</td>
-                            </tr>
-                            <tr>
-                                <td>ERP</td>
-                                <td>${feature.properties['ERP']}</td>
-                            </tr>
-                            <tr>
-                                <td>Address</td>
-                                <td>${feature.properties['STREET ADDRESS']}</td>
-                            </tr>
-                            <tr>
-                                <td>Products</td>
-                                <td></td>
-                            </tr>
-                        </table>
-                    </div>`;
+                var popupHTML = generatePopupHTML(feature);
 
                 // Assign marker color based on Pillar App
-                var color;
-                switch (pillarApp) {
-                    case 'OpsVision MES':
-                    case 'OpsVision Smart Manufacturing':
-                        color = '#00008B';
-                        pillarApp = 'OpsVision';
-                        break;
-                    case 'Reliance':
-                        color = '#FFA500';
-                        break;
-                    case 'Maximo':
-                        color = '#FFFF00';
-                        break;
-                    case 'SCC (Phase 1)':
-                    case 'SCC (Phase 2)':
-                        color = '#800080';
-                        pillarApp = 'SCC';
-                        break;
-                    default:
-                        color = '#000000';
+                var color = getColorForPillarApp(pillarApp);
+                if(color==='#00008B') pillarApp='OpsVision';
+                if(color==='#800080') pillarApp='SCC';
+                if(color != '#000000'){
+                    createMarker(color, lngLat, popupHTML, pillarApp);
                 }
-                createMarker(color, lngLat, popupHTML, pillarApp);
             });
         });
 }
@@ -258,6 +248,8 @@ function getColorForPillarApp(pillarApp) {
         case 'SCC (Phase 1)':
         case 'SCC (Phase 2':
             return '#800080';
+        /*case 'AWS':
+            return '#146eb4';*/
         default:
             return '#000000';
     }
@@ -369,6 +361,38 @@ document.getElementById('show-password').addEventListener('change', togglePasswo
 
 /***** CSV TO GEOJSON CONVERSION *******/
 
+// Get references to the file input and apply button
+const masterSitesFileInput = document.getElementById('master-sites-upload');
+const masterSitesApplyButton = document.getElementById('apply-master-sites-upload');
+
+// Event listener for file input change
+masterSitesFileInput.addEventListener('change', function () {
+    // Check if any file is selected
+    if (masterSitesFileInput.files.length > 0) {
+        // Enable the apply button
+        masterSitesApplyButton.disabled = false;
+    } else {
+        // Disable the apply button if no file is selected
+        masterSitesApplyButton.disabled = true;
+    }
+});
+
+// Get references to the file input and apply button
+const appsFileInput = document.getElementById('app-deployment-upload');
+const appsApplyButton = document.getElementById('apply-app-deployment-upload');
+
+// Event listener for file input change
+appsFileInput.addEventListener('change', function () {
+    // Check if any file is selected
+    if (appsFileInput.files.length > 0) {
+        // Enable the apply button
+        appsApplyButton.disabled = false;
+    } else {
+        // Disable the apply button if no file is selected
+        appsApplyButton.disabled = true;
+    }
+});
+
 // Convert uploaded CSV file to GeoJSON
 function convertCSVtoGeoJSON(fileInputId, callback) {
     const fileInput = document.getElementById(fileInputId);
@@ -378,23 +402,39 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
     reader.onload = function (event) {
         const csvString = event.target.result;
 
-        // Parse CSV using PapaParse
-        Papa.parse(csvString, {
+         // Parse CSV using PapaParse
+         Papa.parse(csvString, {
             header: true,
             complete: function (results) {
-                // Map CSV data to GeoJSON format
-                const geojson = {
-                    type: "FeatureCollection",
-                    features: results.data.map(function (row) {
-                        return {
+                // Initialize an array to store GeoJSON features
+                const features = [];
+
+                // Iterate over each row in the CSV data
+                for (let i = 0; i < results.data.length; i++) {
+                    const row = results.data[i];
+
+                    // Check if the row meets criteria
+                    if (row['LATITUDE'] && row['LONGITUDE'] && row['IT Site Code']) {
+                        // Create a GeoJSON feature and add it to the features array
+                        const feature = {
                             type: "Feature",
                             geometry: {
                                 type: "Point",
-                                coordinates: [parseFloat(row.LONGITUDE), parseFloat(row.LATITUDE)]
+                                coordinates: [parseFloat(row['LONGITUDE']), parseFloat(row['LATITUDE'])]
                             },
                             properties: row
                         };
-                    })
+                        features.push(feature);
+                    } else {
+                        // if row does not meet criteria, skip to the next row
+                        continue;
+                    }
+                }
+
+                // create a FeatureCollection from the features array
+                const geojson = {
+                    type: "FeatureCollection",
+                    features: features
                 };
                 callback(null, geojson);
             },
@@ -423,6 +463,9 @@ function loadGeoJSONFromLocalStorage() {
     // Retrieve GeoJSON data with prefixed keys
     const masterSitesGeoJSON = getGeoJSONFromLocalStorage('/master_sites_upload');
     const appDeploymentGeoJSON = getGeoJSONFromLocalStorage('/app_deployment_upload');
+
+    console.log('masterSitesGeoJSON:', masterSitesGeoJSON);
+    console.log('appDeploymentGeoJSON:', appDeploymentGeoJSON);
 
     if (masterSitesGeoJSON) {
         map.on('style.load', function() {
@@ -454,6 +497,9 @@ function storeGeoJSONInLocalStorage(key, geojson) {
 
 // Update the event listeners for upload buttons to store data in localStorage with prefixed keys & update map
 document.getElementById('apply-master-sites-upload').addEventListener('click', function () {
+    
+    localStorage.removeItem('/master_sites_upload');
+
     convertCSVtoGeoJSON('master-sites-upload', function (err, geojson) {
         if (!err) {
             console.log('Successfully converted CSV to GeoJSON:', geojson);
@@ -463,9 +509,13 @@ document.getElementById('apply-master-sites-upload').addEventListener('click', f
             addOrUpdateSourceAndLayer('master_sites_data', geojson, true, 'visible');
         }
     });
+    showSuccessMessage('Changes applied successfully.', 'master-message');
 });
 
 document.getElementById('apply-app-deployment-upload').addEventListener('click', function () {
+    
+    localStorage.removeItem('/app_deployment_upload');
+
     convertCSVtoGeoJSON('app-deployment-upload', function (err, geojson) {
         if (!err) {
             console.log('Successfully converted CSV to GeoJSON:', geojson);
@@ -475,6 +525,7 @@ document.getElementById('apply-app-deployment-upload').addEventListener('click',
             addOrUpdateSourceAndLayer('app_deployment', geojson, false, 'visible');
         }
     });
+    showSuccessMessage('Changes applied successfully.', 'master-message');
 });
 
 
@@ -483,15 +534,33 @@ document.getElementById('apply-app-deployment-upload').addEventListener('click',
 // add or update map source and layer
 function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
     console.log('sourceID: ' + sourceId + ', visibility: ' + visibility);
-    // check if source already exists
-    if (isLayer) {
-        // if source exists update the data
-        map.getSource(sourceId).setData(geojson);
+    
+        if (isLayer) {
+            map.removeLayer('All-Sites');
+            map.getSource(sourceId).setData(geojson);
+            map.addLayer({
+                'id': 'All-Sites',
+                'type': 'circle',
+                'source': sourceId,
+                'paint': {
+                    'circle-radius': 2.75,
+                    'circle-color': '#FF0000',
+                    'circle-opacity': 1
+                }
+            });
+            return;
+        }
 
-    } else {
+        for (const pillarApp in markersByPillarApp) {
+            if (markersByPillarApp.hasOwnProperty(pillarApp)) {
+                removeMarkersByPillarApp(pillarApp);
+            }
+        }
+
+        markersByCoordinate = {};
+
         // add as a marker
         geojson.features.forEach(function (feature) {
-            console.log(feature);
             var pillarApp = feature.properties['Pillar App'];
             if(pillarApp==='OpsVision MES' || pillarApp==='OpsVision Smart Manufacturing') {
                 pillarApp = 'OpsVision';
@@ -500,48 +569,45 @@ function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
                 pillarApp = 'SCC';
             }
             var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
-            var popupHTML = `
-                    <div class="popup-content">
-                        <h3>${feature.properties['SITE']}</h3>
-                        <table class="popup-table">
-                            <tr>
-                                <th>Property</th>
-                                <th>Value</th>
-                            </tr>
-                            <tr>
-                            </tr>
-                            <tr>
-                                <td>IT Site Code</td>
-                                <td>${feature.properties['IT Site Code']}</td>
-                            </tr>
-                            <tr>
-                                <td>B/U</td>
-                                <td>${feature.properties['B/U']}</td>
-                            </tr>
-                            <tr>
-                                <td>Ops Leader</td>
-                                <td>${feature.properties['Ops Leader']}</td>
-                            </tr>
-                            <tr>
-                                <td>ERP</td>
-                                <td>${feature.properties['ERP']}</td>
-                            </tr>
-                            <tr>
-                                <td>Address</td>
-                                <td>${feature.properties['STREET ADDRESS']}</td>
-                            </tr>
-                            <tr>
-                                <td>Products</td>
-                                <td></td>
-                            </tr>
-                        </table>
-                    </div>`;
+            var coordinateKey= lngLat.join(',');
+            if (!markersByCoordinate[coordinateKey]) {
+                markersByCoordinate[coordinateKey] = [];
+            }
+            markersByCoordinate[coordinateKey].push({
+                pillarApp: pillarApp
+            });
+            var popupHTML = generatePopupHTML(feature);
 
             var color = getColorForPillarApp(pillarApp);
-            // !!FIX!!  createMarker(color, lngLat, popupHTML, pillarApp);
+            if(color != '#000000'){
+                createMarker(color, lngLat, popupHTML, pillarApp);
+            }
         });
     }
-}
+
+    function removeMarkersByPillarApp(pillarApp) {
+        if (markersByPillarApp[pillarApp]) {
+            markersByPillarApp[pillarApp].forEach(function (marker) {
+                marker.remove(); // Remove marker from map
+            });
+        }
+    }
+
+    // show success message when new data has been uploaded
+    function showSuccessMessage(message, messageId) {
+        // span element for the success message
+        const successMessage = document.getElementById(messageId);
+        successMessage.textContent = message;
+
+        // show message
+        successMessage.style.opacity = '1';
+
+        // remove the success message after a few seconds
+        setTimeout(function () {
+            // Set opacity back to 0 to hide the message
+            successMessage.style.opacity = '0';
+        }, 3000); // Adjust the duration as needed
+    }
 
 /*********SEARCH & NAVIGATION CONTROLS ***********/
 

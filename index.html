@@ -4,7 +4,7 @@
 
 <head>
 
-    <meta charset='utf-8' />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
     <title>Pillar App Site Map</title>
 
@@ -21,8 +21,7 @@
     <script id="search-js" defer="" src="https://api.mapbox.com/search-js/v1.0.0-beta.20/web.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
-</head>
+    <script src="https://kit.fontawesome.com/04bb60818b.js" crossorigin="anonymous"></script></head>
 
 <body>
 
@@ -38,25 +37,30 @@
                     <label class="visible-layers-label">Visible Layers</label>
                 </fieldset>
                 <fieldset>
-                    <input type="checkbox" id="OpsVision" checked="">
+                    <input type="checkbox" class="layers" id="OpsVision" checked="">
                     <label for="OpsVision">OpsVision</label>
                 </fieldset>
                 <fieldset>
-                    <input type="checkbox" id="Reliance" checked="">
+                    <input type="checkbox" class="layers" id="Reliance" checked="">
                     <label for="Reliance">Reliance</label>
                 </fieldset>
                 <fieldset>
-                    <input type="checkbox" id="Maximo" checked="">
+                    <input type="checkbox" class="layers" id="Maximo" checked="">
                     <label for="Maximo">Maximo</label>
                 </fieldset>
                 <fieldset>
-                    <input type="checkbox" id="SCC" checked="">
+                    <input type="checkbox" class="layers" id="SCC" checked="">
                     <label for="SCC">SCC</label>
                 </fieldset>
                 <fieldset>
-                    <input type="checkbox" id="All-Sites" checked="">
+                    <input type="checkbox" class="layers" id="All-Sites" checked="">
                     <label for="All-Sites">All Sites</label>
-                </fieldset><br>
+                </fieldset>
+                <!--<fieldset>
+                    <input type="checkbox" class="layers" id="AWS" checked="">
+                    <label for="AWS">AWS</label>
+                </fieldset>-->
+                <br>
             </div>
         </div>
 
@@ -85,13 +89,13 @@
 
         <!--"Upload Data" button-->
         <div class="file-upload-container">
-            <button  id="upload-data-button"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</button>
+            <button  id="upload-data-button"><i class="fa-solid fa-arrow-up-from-bracket" style="color: #000000;"></i>&nbsp; Upload Data</button>
         </div>
 
         <!-- Popup containers -->
         <div id="upload-popup" class="popup-container">
 
-            <span class="close-btn"><img id="x-img" src="assets/images/x.svg" alt="Close Popup X Icon"></span>
+            <span class="close-btn"><i class="fa-solid fa-xmark" style="color: #000000;"></i></span>
 
             <div id="authentication-form">
                 <label for="password">Password:</label>
@@ -106,25 +110,34 @@
 
             <div id="upload-data" style="display: none;">
 
-                <label id="upload-data-popup-label"><img id="upload-img" src="assets/images/upload.svg" alt="Upload Icon"> Upload Data</label>
+                <label id="upload-data-popup-label"><i class="fa-solid fa-arrow-up-from-bracket" style="color: #000000;"></i> Upload Data</label>
                 <hr>
-                <p class="subtext"><strong>Note: Changes to the datasets used in this map will reflect for all users.</strong><br><br>
-                Use the latest version of the "masterSiteListing" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to 
-                update the master site listing data (save and upload a .csv copy). <br><br>
-
-                Use the latest version of the "Current install base" sheet in the "Site_Pillar_Apps_Roadmaps" Excel file to update
-                the master site listing data (save and upload a .csv copy).
-                </p>
+                <p><em>Note: Your updates are local to your browser and will not be reflected for all users. 
+                    Permanent changes require overwriting the respective .geojson files within the 
+                    <a href="https://github.com/pillar-apps-site-map/pillar-apps-site-map" target="_blank">project's repository.</a></em></p>
                 <form>
-                    <label for="master-sites-upload" class="subtext"><strong>Master Site List</strong></label><br>
+                    <label for="master-sites-upload" class="heading">
+                        <strong>Master Site Listing </strong></label>
+                        <div class="tooltip-container">
+                            <i class="fa-solid fa-circle-info" style="color: #000000"></i>
+                            <span class="tooltip">Upload a .CSV copy of the 'masterSiteListing' sheet from the 'Site_Pillar_Apps_Roadmaps' Excel file.</span>
+                        </div>
+                    <br>
                     <input type="file" id="master-sites-upload" name="master-sites-upload" accept=".csv" />
-                    <input type="button" id="apply-master-sites-upload" value="Apply">
+                    <input type="button" class="apply" id="apply-master-sites-upload" value="Apply" disabled>
+                    <span class="success-message" id="master-message">Changes applied successfully.</span>
                 </form>
                 <br>
                 <form>
-                    <label for="app-deployment-upload" class="subtext"><strong>Pillar App Deployment Data</strong></label><br>
-                    <input type="file" id="app-deployment-upload" name="app-deployment-upload" accept=".csv" />
-                    <input type="button" id="apply-app-deployment-upload" value="Apply">
+                    <label for="app-deployment-upload" class="heading"><strong>Pillar App Deployment Data </strong></label>
+                    <div class="tooltip-container">
+                        <i class="fa-solid fa-circle-info" style="color: #000000"></i>
+                        <span class="tooltip">Upload a .CSV copy of the 'pillarAppDeployments' sheet from the 'Site_Pillar_Apps_Roadmaps' Excel file.</span>
+                    </div> 
+                    <br>
+                     <input type="file" id="app-deployment-upload" name="app-deployment-upload" accept=".csv" />
+                    <input type="button" class="apply" id="apply-app-deployment-upload" value="Apply" disabled>
+                    <span class="success-message" id="apps-message">Changes applied successfully.</span>
                 </form>
             </div>
         </div>
