@@ -89,6 +89,7 @@ function updateLegendAppCounts() {
         // Get the legend element
         const appCountsLegend = document.getElementById(checkbox.id + '-Count');
         // Update the text content to display the count
+        if(count===undefined) count=0;
         appCountsLegend.innerText = `${count}`;
 
     });
@@ -96,8 +97,6 @@ function updateLegendAppCounts() {
 
 // Create a marker and add it to the map
 function createMarker(color, lngLat, popupHTML, pillarApp) {
-
-    updateLegendAppCounts();
 
     // Increment count for this pillar app
     pillarAppCounts[pillarApp] = (pillarAppCounts[pillarApp] || 0) + 1;
@@ -164,6 +163,8 @@ function createMarker(color, lngLat, popupHTML, pillarApp) {
     }
     // Store new marker by Pillar App 
     markersByPillarApp[pillarApp].push(marker);
+
+    updateLegendAppCounts();
 
 }
 
