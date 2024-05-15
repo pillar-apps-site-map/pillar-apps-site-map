@@ -221,8 +221,6 @@ function fetchAndAddMarkers(url) {
 
                 // Assign marker color based on Pillar App
                 var color = getColorForPillarApp(pillarApp);
-                if(color==='#00008B') pillarApp='OpsVision';
-                if(color==='#800080') pillarApp='SCC';
                 if(color != '#000000'){
                     createMarker(color, lngLat, popupHTML, pillarApp);
                 }
@@ -236,18 +234,18 @@ fetchAndAddMarkers('./data/app_deployment.geojson');
 // Fetch color
 function getColorForPillarApp(pillarApp) {
     switch (pillarApp) {
-        case 'OpsVision':
         case 'OpsVision MES':
-        case 'OpsVision Smart Manufacturing':
             return '#00008B';
+        case 'OpsVision Smart Mfg':
+            return '#5d5dff';
         case 'Reliance':
             return '#FFA500';
         case 'Maximo':
             return '#FFFF00';
-        case 'SCC':
-        case 'SCC (Phase 1)':
-        case 'SCC (Phase 2':
-            return '#800080';
+        case 'SCC Phase 1':
+            return '#7d007d';
+        case 'SCC Phase 2':
+            return '#b100b1';
         /*case 'AWS':
             return '#146eb4';*/
         default:
@@ -262,7 +260,8 @@ document
     .querySelectorAll('.map-overlay-inner input[type="checkbox"]')
     .forEach((checkbox) => {
         checkbox.addEventListener('change', function () {
-            const pillarApp = checkbox.id;
+            const pillarApp = checkbox.id.replaceAll('-', ' ');
+            console.log(pillarApp);
             const visibility = checkbox.checked ? 'visible' : 'none';
 
             // Check if markers for this pillar app exist 
@@ -562,12 +561,6 @@ function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
         // add as a marker
         geojson.features.forEach(function (feature) {
             var pillarApp = feature.properties['Pillar App'];
-            if(pillarApp==='OpsVision MES' || pillarApp==='OpsVision Smart Manufacturing') {
-                pillarApp = 'OpsVision';
-            }
-            if(pillarApp==='SCC (Phase 1)' || pillarApp==='SCC (Phase 2)'){
-                pillarApp = 'SCC';
-            }
             var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
             var coordinateKey= lngLat.join(',');
             if (!markersByCoordinate[coordinateKey]) {

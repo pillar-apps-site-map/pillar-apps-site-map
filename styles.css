@@ -59,9 +59,14 @@ img {
     width: 16px;
 }
 
-#OpsVision {
+#OpsVision-MES {
     accent-color: #0000FF;
 }
+
+#OpsVision-Smart-Mfg {
+    accent-color: #5d5dff;
+}
+
 #Reliance {
     accent-color: #FFA500;
 }
@@ -70,8 +75,12 @@ img {
     accent-color: #FFFF00;
 }
 
-#SCC {
-    accent-color: #800080;
+#SCC-Phase-1 {
+    accent-color: #7d007d;
+}
+
+#SCC-Phase-2 {
+    accent-color: #b100b1;
 }
 
 #All-Sites {
