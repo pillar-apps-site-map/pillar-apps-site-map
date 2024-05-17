@@ -15,24 +15,24 @@ const map = new mapboxgl.Map({
     zoom: 2.3
 });
 
-// Get reference to the select element
+// Reference to the select element
 const mapTypeSelect = document.getElementById('map-type-select');
 
 // Event listener for dropdown change
 mapTypeSelect.addEventListener('change', function () {
-    // Get the selected value from the map style dropdown
+    // Get the selected value
     const selectedMapType = mapTypeSelect.value;
 
-    // Update the map style based on the selected value
+    // Update map style based on selected value
     map.setStyle('mapbox://styles/mapbox/' + selectedMapType);
 });
 
-// Get reference to the select element
+// Get reference to select element
 const projectionSelect = document.getElementById('projection-select');
 
-// Event listener for projection dropdown change
+// Event listener for projection type dropdown
 projectionSelect.addEventListener('change', function () {
-    // Get selected value from projection dropdown
+    // selected value from projection dropdown
     const selectedProjection = projectionSelect.value;
 
     // Update projection property based on selection
@@ -49,13 +49,13 @@ projectionSelect.addEventListener('change', function () {
 // Data for 'All Sites' category (red dots)
 var master_site_listing_url = "./data/master_site_listing.geojson"
 
-// Load in master site list data
+// Load in master site list data & apply layer
 map.on('style.load', function () {
     map.addSource('master_sites_data', {
         'type': 'geojson',
         'data': master_site_listing_url
     });
-    map.addLayer({ // apply sites layer
+    map.addLayer({
         'id': 'All-Sites',
         'type': 'circle',
         'source': 'master_sites_data',
@@ -82,14 +82,14 @@ var pillarAppCounts = {};
 function updateLegendAppCounts() {
     // Iterate through each pillar app checkbox in the legend
     document.querySelectorAll('.map-overlay-inner input[type="checkbox"]').forEach((checkbox) => {
-        if (checkbox.id==='All-Sites') return;
+        if (checkbox.id === 'All-Sites') return;
         const pillarApp = checkbox.id.replaceAll('-', ' ');
         var count = pillarAppCounts[pillarApp];
-        
+
         // Get the legend element
         const appCountsLegend = document.getElementById(checkbox.id + '-Count');
         // Update the text content to display the count
-        if(count===undefined) count=0;
+        if (count === undefined) count = 0;
         appCountsLegend.innerText = `${count}`;
 
     });
@@ -101,7 +101,7 @@ function createMarker(color, lngLat, popupHTML, pillarApp) {
     // Increment count for this pillar app
     pillarAppCounts[pillarApp] = (pillarAppCounts[pillarApp] || 0) + 1;
 
-    // Generate unique key for the coordinates
+    // Unique key for the coordinates
     var coordinateKey = lngLat.join(',');
 
     // Check if markers already exist at this coordinate
@@ -243,7 +243,7 @@ function fetchAndAddMarkers(url) {
 
                 // Assign marker color based on Pillar App
                 var color = getColorForPillarApp(pillarApp);
-                if(color != '#000000'){
+                if (color != '#000000') {
                     createMarker(color, lngLat, popupHTML, pillarApp);
                 }
             });
@@ -275,7 +275,7 @@ function getColorForPillarApp(pillarApp) {
     }
 }
 
-/***** FILTERING BY LAYER *******/
+/***** FILTERING BY LAYER *****/
 
 // Event listener for Pillar App checkbox changes
 document
@@ -339,26 +339,21 @@ function authenticate() {
     }
 }
 
-// handle Enter key press
+// handle Enter key press for password entry
 function handleEnterKey(event) {
     if (event.key === 'Enter') {
         authenticate();
     }
 }
-// event listener for password input field
 document.getElementById('password').addEventListener('keypress', handleEnterKey);
 
 // toggle password visibility
 function togglePasswordVisibility() {
     const passwordInput = document.getElementById('password');
     const showPasswordCheckbox = document.getElementById('show-password');
-
-    if (showPasswordCheckbox.checked) {
-        passwordInput.type = 'text';
-    } else {
-        passwordInput.type = 'password';
-    }
+    showPasswordCheckbox.checked ? passwordInput.type = 'text' : passwordInput.type = 'password';
 }
+
 // event listener for show password checkbox
 document.getElementById('show-password').addEventListener('change', togglePasswordVisibility);
 
@@ -406,7 +401,7 @@ const appsApplyButton = document.getElementById('apply-app-deployment-upload');
 appsFileInput.addEventListener('change', function () {
     // Check if any file is selected
     if (appsFileInput.files.length > 0) {
-        // Enable the apply button
+        // Enable apply button
         appsApplyButton.disabled = false;
     } else {
         // Disable the apply button if no file is selected
@@ -423,8 +418,8 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
     reader.onload = function (event) {
         const csvString = event.target.result;
 
-         // Parse CSV using PapaParse
-         Papa.parse(csvString, {
+        // Parse CSV using PapaParse
+        Papa.parse(csvString, {
             header: true,
             complete: function (results) {
                 // Initialize an array to store GeoJSON features
@@ -434,7 +429,7 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
                 for (let i = 0; i < results.data.length; i++) {
                     const row = results.data[i];
 
-                    // Check if the row meets criteria
+                    // Check if row meets minimum criteria
                     if (row['LATITUDE'] && row['LONGITUDE'] && row['IT Site Code']) {
                         // Create a GeoJSON feature and add it to the features array
                         const feature = {
@@ -468,7 +463,7 @@ function convertCSVtoGeoJSON(fileInputId, callback) {
     reader.readAsText(file);
 }
 
-// Function to reset pillar app counts
+// Reset pillar app counts when data changes
 function resetPillarAppCounts() {
     for (const pillarApp in pillarAppCounts) {
         if (pillarAppCounts.hasOwnProperty(pillarApp)) {
@@ -483,19 +478,18 @@ function resetPillarAppCounts() {
 map.on('load', function () {
     // Reload the uploaded data layers when the map style changes
     loadAndStoreGeoJSON();
-    //loadGeoJSONFromLocalStorage();
 });
 
 function loadAndStoreGeoJSON() {
     fetch('./data/master_site_listing.geojson')
-    .then(response => response.json())
-    .then(masterSitesGeoJSON => {
-        // Store master sites GeoJSON in local storage
-        storeGeoJSONInLocalStorage('/master_sites_upload', masterSitesGeoJSON);
-        // Update the map with the master sites data
-        addOrUpdateSourceAndLayer('master_sites_data', masterSitesGeoJSON, true, 'visible');
-    })
-    .catch(error => console.error('Error loading master site listing:', error));
+        .then(response => response.json())
+        .then(masterSitesGeoJSON => {
+            // Store master sites GeoJSON in local storage
+            storeGeoJSONInLocalStorage('/master_sites_upload', masterSitesGeoJSON);
+            // Update the map with the master sites data
+            addOrUpdateSourceAndLayer('master_sites_data', masterSitesGeoJSON, true, 'visible');
+        })
+        .catch(error => console.error('Error loading master site listing:', error));
 
     // Load app deployment GeoJSON from file
     fetch('./data/app_deployment.geojson')
@@ -506,36 +500,9 @@ function loadAndStoreGeoJSON() {
         })
         .catch(error => console.error('Error loading app deployment data:', error));
 
-        // reflect counts in legend
-        updateAllSitesCount();
-    }
-
-/*
-// Load GeoJSON from localStorage with prefixed keys when the page loads
-function loadGeoJSONFromLocalStorage() {
-    // Retrieve GeoJSON data with prefixed keys
-    const masterSitesGeoJSON = getGeoJSONFromLocalStorage('/master_sites_upload');
-    const appDeploymentGeoJSON = getGeoJSONFromLocalStorage('/app_deployment_upload');
-
-    console.log('masterSitesGeoJSON:', masterSitesGeoJSON);
-    console.log('appDeploymentGeoJSON:', appDeploymentGeoJSON);
-
-    if (masterSitesGeoJSON) {
-        map.on('style.load', function() {
-            // Update the map with the retrieved GeoJSON data
-            addOrUpdateSourceAndLayer('master_sites_data', masterSitesGeoJSON, true, 'visible');
-            //updateAllSitesCount();
-        });
-    } 
-
-    if (appDeploymentGeoJSON) {
-        map.on('style.load', function() {
-            // Update the map with the retrieved GeoJSON data
-            addOrUpdateSourceAndLayer('app_deployment', appDeploymentGeoJSON, false, 'visible');
-            //updateAllSitesCount();
-        });
-    }
-}*/
+    // reflect counts in legend
+    updateAllSitesCount();
+}
 
 function updateAllSitesCount() {
     const allSitesData = map.getSource('master_sites_data')._data;
@@ -549,14 +516,6 @@ function updateLegendAllSites(count) {
     // Update the text content to display the count
     allSitesLegend.innerText = `${count}`;
 }
-
-/*
-// Update the function to retrieve GeoJSON data from localStorage with prefixed keys
-function getGeoJSONFromLocalStorage(key) {
-    // Use prefixed key provided by github-pages-local-storage library
-    const storedData = localStorage.getItem(key);
-    return storedData ? JSON.parse(storedData) : null;
-}*/
 
 // Update the function to store GeoJSON in localStorage with prefixed keys
 function storeGeoJSONInLocalStorage(key, geojson) {
@@ -574,7 +533,7 @@ document.getElementById('apply-master-sites-upload').addEventListener('click', f
             console.log('Successfully converted CSV to GeoJSON:', geojson);
             // Store GeoJSON in localStorage with prefixed key
             storeGeoJSONInLocalStorage('/master_sites_upload', geojson);
-            // Update the map with the new data
+            // Update map with the new data
             addOrUpdateSourceAndLayer('master_sites_data', geojson, true, 'visible');
             updateAllSitesCount();
         }
@@ -583,7 +542,7 @@ document.getElementById('apply-master-sites-upload').addEventListener('click', f
 });
 
 document.getElementById('apply-app-deployment-upload').addEventListener('click', function () {
-    
+
     resetPillarAppCounts();
 
     localStorage.removeItem('/app_deployment_upload');
@@ -607,80 +566,80 @@ document.getElementById('apply-app-deployment-upload').addEventListener('click',
 // add or update map source and layer
 function addOrUpdateSourceAndLayer(sourceId, geojson, isLayer, visibility) {
     console.log('sourceID: ' + sourceId + ', visibility: ' + visibility);
-    
-        if (isLayer) {
-            map.removeLayer('All-Sites');
-            map.getSource(sourceId).setData(geojson);
-            map.addLayer({
-                'id': 'All-Sites',
-                'type': 'circle',
-                'source': sourceId,
-                'paint': {
-                    'circle-radius': 2.75,
-                    'circle-color': '#FF0000',
-                    'circle-opacity': 1
-                }
-            });
-            const siteCount = geojson.features.length;
-            updateLegendAllSites(siteCount);
-            return;
-        }
 
-        for (const pillarApp in markersByPillarApp) {
-            if (markersByPillarApp.hasOwnProperty(pillarApp)) {
-                removeMarkersByPillarApp(pillarApp);
-            }
-        }
-
-        markersByCoordinate = {};
-
-        // add as a marker
-        geojson.features.forEach(function (feature) {
-            var pillarApp = feature.properties['Pillar App'];
-            var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
-            var coordinateKey= lngLat.join(',');
-            if (!markersByCoordinate[coordinateKey]) {
-                markersByCoordinate[coordinateKey] = [];
-            }
-            markersByCoordinate[coordinateKey].push({
-                pillarApp: pillarApp
-            });
-            var popupHTML = generatePopupHTML(feature);
-
-            var color = getColorForPillarApp(pillarApp);
-            if(color != '#000000'){
-                createMarker(color, lngLat, popupHTML, pillarApp);
+    if (isLayer) {
+        map.removeLayer('All-Sites');
+        map.getSource(sourceId).setData(geojson);
+        map.addLayer({
+            'id': 'All-Sites',
+            'type': 'circle',
+            'source': sourceId,
+            'paint': {
+                'circle-radius': 2.75,
+                'circle-color': '#FF0000',
+                'circle-opacity': 1
             }
         });
+        const siteCount = geojson.features.length;
+        updateLegendAllSites(siteCount);
+        return;
     }
 
-    function removeMarkersByPillarApp(pillarApp) {
-        if (markersByPillarApp[pillarApp]) {
-            markersByPillarApp[pillarApp].forEach(function (marker) {
-                marker.remove(); // remove marker from map
-            });
+    for (const pillarApp in markersByPillarApp) {
+        if (markersByPillarApp.hasOwnProperty(pillarApp)) {
+            removeMarkersByPillarApp(pillarApp);
         }
     }
 
-    // show success message when new data has been uploaded
-    function showSuccessMessage(message, messageId) {
-        // span element for the success message
-        const successMessage = document.getElementById(messageId);
-        successMessage.textContent = message;
+    markersByCoordinate = {};
 
-        // show message
-        successMessage.style.opacity = '1';
+    // add as a marker
+    geojson.features.forEach(function (feature) {
+        var pillarApp = feature.properties['Pillar App'];
+        var lngLat = [feature.geometry.coordinates[0], feature.geometry.coordinates[1]];
+        var coordinateKey = lngLat.join(',');
+        if (!markersByCoordinate[coordinateKey]) {
+            markersByCoordinate[coordinateKey] = [];
+        }
+        markersByCoordinate[coordinateKey].push({
+            pillarApp: pillarApp
+        });
+        var popupHTML = generatePopupHTML(feature);
 
-        // remove the success message after a few seconds
-        setTimeout(function () {
-            // Set opacity back to 0 to hide the message
-            successMessage.style.opacity = '0';
-        }, 3000); // Adjust the duration as needed
+        var color = getColorForPillarApp(pillarApp);
+        if (color != '#000000') {
+            createMarker(color, lngLat, popupHTML, pillarApp);
+        }
+    });
+}
+
+function removeMarkersByPillarApp(pillarApp) {
+    if (markersByPillarApp[pillarApp]) {
+        markersByPillarApp[pillarApp].forEach(function (marker) {
+            marker.remove(); // remove marker from map
+        });
     }
+}
+
+// show success message when new data has been uploaded
+function showSuccessMessage(message, messageId) {
+    // span element for the success message
+    const successMessage = document.getElementById(messageId);
+    successMessage.textContent = message;
+
+    // show message
+    successMessage.style.opacity = '1';
+
+    // remove the success message after a few seconds
+    setTimeout(function () {
+        // hide the message
+        successMessage.style.opacity = '0';
+    }, 3000);
+}
 
 /*********SEARCH & NAVIGATION CONTROLS ***********/
 
-// Asynchronously load the search and navigation controls
+// Asynchronously load search and nav controls
 async function loadControls() {
     try {
         // Load search control asynchronously

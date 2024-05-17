@@ -1,3005 +1,2806 @@
 {
     "type": "FeatureCollection",
     "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "APD / XMM",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Monterrey GEMSR (MXM)",
-                "SITE LOCATION": "Monterrey, Mexico",
-                "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
-                "ERP": "SITE CODE NOT FOUND"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.13354,
-                    25.77816
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "BEM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Bearward",
-                "SITE LOCATION": "Minnesota",
-                "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.218521,
-                    45.162392
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "BEN",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Bearward",
-                "SITE LOCATION": "Northamptonshire, UK",
-                "STREET ADDRESS": "Main Rd, Far Cotton, Northampton NN4 8HJ, United Kingdom",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.906813,
-                    52.227988
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "CLE",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Cleveland Reman",
-                "SITE LOCATION": "Cleveland, OH",
-                "STREET ADDRESS": "4477 E 49th St, Cleveland, OH 44125",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.6565861,
-                    41.4574809
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "DCM",
-                "Ops Leader": "M. Thomas",
-                "B/U": "NA Distribution",
-                "SITE": "Plainfield DC",
-                "SITE LOCATION": "Plainfield, IN",
-                "STREET ADDRESS": "1110 Smith Rd, Plainfield, IN 46168",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.361333,
-                    39.732258
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "DCS",
-                "Ops Leader": "M. Thomas",
-                "B/U": "NA Distribution",
-                "SITE": "Houston DC",
-                "SITE LOCATION": "Houston, TX",
-                "STREET ADDRESS": "3004 Aldine Bender Rd Bldg A, Houston, TX 77032",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -95.339773,
-                    29.930278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "DCW",
-                "Ops Leader": "M. Thomas",
-                "B/U": "NA Distribution",
-                "SITE": "Reno DC",
-                "SITE LOCATION": "Reno, NV",
-                "STREET ADDRESS": "9477 NORTH VIRGINIA ST RENO NV 89506",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8642716,
-                    39.6083096
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "ELK",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Hanover Park",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "EMP",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Emporium Reman",
-                "SITE LOCATION": "Emporium, PA",
-                "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.229597,
-                    41.509152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "EPM",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie Propulsion",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "ERC",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Erie Campus",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "ERI",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "ETS / GCM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GETSA GSC (SPO)",
-                "SITE LOCATION": "Contagem, Brazil",
-                "STREET ADDRESS": "Av. Cardeal Eugênio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -44.022148,
-                    -19.95433
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "FCZ",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Czech (FTCZ)",
-                "SITE LOCATION": "Pilzen, Czech Republic",
-                "STREET ADDRESS": "U Přivaděče 1315/3, 326 00 Plzeň 2-Slovany, Czechia",
-                "ERP": "MM4"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.4273862,
-                    49.708324
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "FRH",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Rohtak",
-                "SITE LOCATION": "Rohtak, India",
-                "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    76.6857,
-                    28.8342
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "FSG",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Stemmann Technick - STT",
-                "SITE LOCATION": "Schuttorg, Germany",
-                "STREET ADDRESS": "Niedersachsenstraße 2, 48465 Schüttorf, Germany",
-                "ERP": "Abas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.2440265,
-                    52.3396967
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "HPD",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Himachal Pradesh - Baddi",
-                "SITE LOCATION": "Baddi, India",
-                "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.5238657,
-                    31.3104918
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "HSR",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Hosur",
-                "SITE LOCATION": "Tamil Nadu - IND",
-                "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    78.95,
-                    12.2156
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "KCR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Kansas City (KRC)",
-                "SITE LOCATION": "Kansas City, MO",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "MMH  / NOK",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
-                "SITE LOCATION": "Kansas City, MO (w/ NOK)",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Syspro"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "MSF",
-                "Ops Leader": "",
-                "B/U": "Transit",
-                "SITE": "Mors Smitt France",
-                "SITE LOCATION": "Sablé-sur-Sarthe, France",
-                "STREET ADDRESS": "2 Rue de la Mandiniere, Sable-sur-Sarthe, 72300 France",
-                "ERP": "Cegid+ Isoflex"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.3036344,
-                    47.8213509
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "MZT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "MZT",
-                "SITE LOCATION": "Skopje, Macedonia",
-                "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    21.4792057,
-                    41.9968158
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "N91",
-                "Ops Leader": "",
-                "B/U": "Components",
-                "SITE": "Neighborhood 91",
-                "SITE LOCATION": "Clinton, PA",
-                "STREET ADDRESS": "1300 CLINTON RD., CLINTON, PA 15026",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.2774272,
-                    40.4985241
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "PTE",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Precision Turbo",
-                "SITE LOCATION": "Hebron, Indiana",
-                "STREET ADDRESS": "9401 Georgia Street, Crown Point, IN 46307",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.3241675,
-                    41.4462614
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "SEW/SSC",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Schaefer Equipment",
-                "SITE LOCATION": "Warren, OH",
-                "STREET ADDRESS": "1590 Phoenix Rd NE, Warren, OH 44483",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.798587,
-                    41.26244
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "SLM",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Graham White",
-                "SITE LOCATION": "Salem, VA",
-                "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.0529966,
-                    37.2795274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "SPC",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport (U1)",
-                "SITE LOCATION": "Saint Pierre des Corps, France",
-                "STREET ADDRESS": "75 Av. Yves Farge, 37700 Saint-Pierre-des-Corps, France",
-                "ERP": "Octal"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.740281,
-                    47.385408
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "SRC",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Columbia",
-                "SITE LOCATION": "Columbia, South Carolina",
-                "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.0260003,
-                    33.9751995
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "TAR",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Iberica",
-                "SITE LOCATION": "Tarragona, Spain",
-                "STREET ADDRESS": "Carrer de la Mecànica, finca 23 Polígon Industrial La Drecera, 43470, Tarragona, Spain",
-                "ERP": "IBM Informix Dynamic , PGI"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    1.25,
-                    41.11667
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "VBI",
-                "Ops Leader": "",
-                "B/U": "Transit",
-                "SITE": "Vapor Bus",
-                "SITE LOCATION": "Buffalo Grove, Illinois",
-                "STREET ADDRESS": "1010 Johnson Dr, Buffalo Grove, IL 60089",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.9316833,
-                    42.1542574
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Plattsburgh (VCP)",
-                "SITE LOCATION": "Plattsburgh, NY",
-                "STREET ADDRESS": "72 Arizona Ave, Plattsburgh, NY 12903",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.4571427,
-                    44.6578953
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "VKS",
-                "Ops Leader": "",
-                "B/U": "Digital Electronics",
-                "SITE": "VKS - Visual Knowledge Share Ltd",
-                "SITE LOCATION": "Chateauguay, Quebec, Canada",
-                "STREET ADDRESS": "1241 Cascades St, Chateauguay, Quebec, Canada J6J 4Z2",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.689414,
-                    45.3478514
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "WIT",
-                "Ops Leader": "",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Bochum (WTN)",
-                "SITE LOCATION": "Witten, Germany",
-                "STREET ADDRESS": "Sophie-Opel-Straße 20, 44803 Bochum, Germany",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.2588322,
-                    51.4674772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "WMS/WMG",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Mexico SLP",
-                "SITE LOCATION": "San Luis Potosi, Mexico",
-                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosí, S.L.P., Mexico",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8862005,
-                    22.0859772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "WPT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Passenger Transit",
-                "SITE LOCATION": "Duncan, South Carolina",
-                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.111872,
-                    34.919319
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "WRE",
-                "Ops Leader": "C. Strong",
-                "B/U": "Digital Electronics",
-                "SITE": "Wabtec Railway Electronics",
-                "SITE LOCATION": "Germantown, MD",
-                "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.265761,
-                    39.20438
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "XST",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Saltillo GEMC",
-                "SITE LOCATION": "Saltillo, Mexico",
-                "STREET ADDRESS": "Privada Buenos Aires, Cipreses, 25356 Arteaga, Coahuila, Mexico",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8913994,
-                    25.4411819
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "YMM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GEDL Marwohra",
-                "SITE LOCATION": "Marhowra, India",
-                "STREET ADDRESS": "Bazid Bhoraha, Talpuraina, Marhowrah, Bihar 841418, India",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    84.8566542,
-                    25.9734065
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "YTJ",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "YoungTouchstone Jax",
-                "SITE LOCATION": "Jackson, TN, USA",
-                "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.524796,
-                    36.308689
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision MES",
-                "IT Site Code": "YTL",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "YoungTouchstone Lex",
-                "SITE LOCATION": "Lexington, TN",
-                "STREET ADDRESS": "1000 Young Dr, Lexington, TN 38351",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.383065,
-                    35.695153
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "BEM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Bearward",
-                "SITE LOCATION": "Minnesota",
-                "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.218521,
-                    45.162392
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "BEN",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Bearward",
-                "SITE LOCATION": "Northamptonshire, UK",
-                "STREET ADDRESS": "Main Rd, Far Cotton, Northampton NN4 8HJ, United Kingdom",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.906813,
-                    52.227988
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "EPM",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie Propulsion",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "FCZ",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Czech (FTCZ)",
-                "SITE LOCATION": "Pilzen, Czech Republic",
-                "STREET ADDRESS": "U Přivaděče 1315/3, 326 00 Plzeň 2-Slovany, Czechia",
-                "ERP": "MM4"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.4273862,
-                    49.708324
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "FRH",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Rohtak",
-                "SITE LOCATION": "Rohtak, India",
-                "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    76.6857,
-                    28.8342
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "FSG",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Stemmann Technick - STT",
-                "SITE LOCATION": "Schuttorg, Germany",
-                "STREET ADDRESS": "Niedersachsenstraße 2, 48465 Schüttorf, Germany",
-                "ERP": "Abas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.2440265,
-                    52.3396967
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "HPD",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Himachal Pradesh - Baddi",
-                "SITE LOCATION": "Baddi, India",
-                "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.5238657,
-                    31.3104918
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "HSR",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Hosur",
-                "SITE LOCATION": "Tamil Nadu - IND",
-                "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    78.95,
-                    12.2156
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "MMH  / NOK",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
-                "SITE LOCATION": "Kansas City, MO (w/ NOK)",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Syspro"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "MZT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "MZT",
-                "SITE LOCATION": "Skopje, Macedonia",
-                "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    21.4792057,
-                    41.9968158
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "SLM",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Graham White",
-                "SITE LOCATION": "Salem, VA",
-                "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.0529966,
-                    37.2795274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "SRC",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Columbia",
-                "SITE LOCATION": "Columbia, South Carolina",
-                "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.0260003,
-                    33.9751995
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "TAR",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Iberica",
-                "SITE LOCATION": "Tarragona, Spain",
-                "STREET ADDRESS": "Carrer de la Mecànica, finca 23 Polígon Industrial La Drecera, 43470, Tarragona, Spain",
-                "ERP": "IBM Informix Dynamic , PGI"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    1.25,
-                    41.11667
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "VAD",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Faiveley Transport Tours (U3)",
-                "SITE LOCATION": "La Ville aux Dames, France",
-                "STREET ADDRESS": "Rue Amélia Earhart, 37700 La Ville-aux-Dames, France",
-                "ERP": "Octal"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.7648765,
-                    47.3825019
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Montreal (VCI)",
-                "SITE LOCATION": "Montreal, Canada",
-                "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.700787,
-                    45.497003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Plattsburgh (VCP)",
-                "SITE LOCATION": "Plattsburgh, NY",
-                "STREET ADDRESS": "72 Arizona Ave, Plattsburgh, NY 12903",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.4571427,
-                    44.6578953
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "WMS/WMG",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Mexico SLP",
-                "SITE LOCATION": "San Luis Potosi, Mexico",
-                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosí, S.L.P., Mexico",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8862005,
-                    22.0859772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "WPT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Passenger Transit",
-                "SITE LOCATION": "Duncan, South Carolina",
-                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.111872,
-                    34.919319
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "WRE",
-                "Ops Leader": "C. Strong",
-                "B/U": "Digital Electronics",
-                "SITE": "Wabtec Railway Electronics",
-                "SITE LOCATION": "Germantown, MD",
-                "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.265761,
-                    39.20438
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "OpsVision Smart Mfg",
-                "IT Site Code": "YTJ",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "YoungTouchstone Jax",
-                "SITE LOCATION": "Jackson, TN, USA",
-                "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.524796,
-                    36.308689
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "ELK",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Hanover Park",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "EMP",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Emporium Reman",
-                "SITE LOCATION": "Emporium, PA",
-                "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.229597,
-                    41.509152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "ERI",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "ETS / GCM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GETSA GSC (SPO)",
-                "SITE LOCATION": "Contagem, Brazil",
-                "STREET ADDRESS": "Av. Cardeal Eugênio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -44.022148,
-                    -19.95433
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "KCR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Kansas City (KRC)",
-                "SITE LOCATION": "Kansas City, MO",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "SRC",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Columbia",
-                "SITE LOCATION": "Columbia, South Carolina",
-                "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.0260003,
-                    33.9751995
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "TXD",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Texas Distribution",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "TXM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Texas OHV",
-                "SITE LOCATION": "Forth Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "WPT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Passenger Transit",
-                "SITE LOCATION": "Duncan, South Carolina",
-                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.111872,
-                    34.919319
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Reliance",
-                "IT Site Code": "WRE",
-                "Ops Leader": "C. Strong",
-                "B/U": "Digital Electronics",
-                "SITE": "Wabtec Railway Electronics",
-                "SITE LOCATION": "Germantown, MD",
-                "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.265761,
-                    39.20438
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "APD / XMM",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Monterrey GEMSR (MXM)",
-                "SITE LOCATION": "Monterrey, Mexico",
-                "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
-                "ERP": "SITE CODE NOT FOUND"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.13354,
-                    25.77816
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "CLE",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Cleveland Reman",
-                "SITE LOCATION": "Cleveland, OH",
-                "STREET ADDRESS": "4477 E 49th St, Cleveland, OH 44125",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.6565861,
-                    41.4574809
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "DFM",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Dia-Frag (GDM)",
-                "SITE LOCATION": "Monte Alto, Brazil",
-                "STREET ADDRESS": "Rua 19 de Novembro, 305 - Vila Sao Cristovao, Monte Alto - SP, 15910-000, Brazil",
-                "ERP": "TOTVS"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -48.49838,
-                    -21.2732978
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "EMP",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Emporium Reman",
-                "SITE LOCATION": "Emporium, PA",
-                "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.229597,
-                    41.509152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "ERI",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "ETS / GCM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GETSA GSC (SPO)",
-                "SITE LOCATION": "Contagem, Brazil",
-                "STREET ADDRESS": "Av. Cardeal Eugênio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -44.022148,
-                    -19.95433
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "FSG",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Stemmann Technick - STT",
-                "SITE LOCATION": "Schuttorg, Germany",
-                "STREET ADDRESS": "Niedersachsenstraße 2, 48465 Schüttorf, Germany",
-                "ERP": "Abas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.2440265,
-                    52.3396967
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "FSP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Stemmann Poland - STP",
-                "SITE LOCATION": "Wroclaw, Poland",
-                "STREET ADDRESS": "Spółdzielcza 22, 55-080 Kąty Wrocławskie, Poland",
-                "ERP": "Abas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16.75075,
-                    51.0287
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "HSR",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Hosur",
-                "SITE LOCATION": "Tamil Nadu - IND",
-                "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    78.95,
-                    12.2156
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "KCR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Kansas City (KRC)",
-                "SITE LOCATION": "Kansas City, MO",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "KSR",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Astana Diesel Shop (GEKUK)",
-                "SITE LOCATION": "Astana, Kazakhstan",
-                "STREET ADDRESS": "Жангельдина 14а, Koschi 010078, Kazakhstan",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    71.36154785,
-                    50.97412915
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "RCR",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight Services",
-                "SITE": "Relco Locomotives Cedar Rapids (WCR, RCI)",
-                "SITE LOCATION": "Cedar Rapids, Iowa",
-                "STREET ADDRESS": "5250 N River Blvd NE, Cedar Rapids, IA 52411",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -91.7120002,
-                    42.0291658
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "REA",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight Services",
-                "SITE": "Relco Locomotives Albia (RAI)",
-                "SITE LOCATION": "Albia, IA, USA",
-                "STREET ADDRESS": "2074 653rd Ave, Albia, IA 52531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -92.792817,
-                    40.980441
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "WMS/WMG",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Mexico SLP",
-                "SITE LOCATION": "San Luis Potosi, Mexico",
-                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosí, S.L.P., Mexico",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8862005,
-                    22.0859772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "XST",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Saltillo GEMC",
-                "SITE LOCATION": "Saltillo, Mexico",
-                "STREET ADDRESS": "Privada Buenos Aires, Cipreses, 25356 Arteaga, Coahuila, Mexico",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8913994,
-                    25.4411819
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "YMM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GEDL Marwohra",
-                "SITE LOCATION": "Marhowra, India",
-                "STREET ADDRESS": "Bazid Bhoraha, Talpuraina, Marhowrah, Bihar 841418, India",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    84.8566542,
-                    25.9734065
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "YTJ",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "YoungTouchstone Jax",
-                "SITE LOCATION": "Jackson, TN, USA",
-                "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.524796,
-                    36.308689
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "Maximo",
-                "IT Site Code": "YTL",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "YoungTouchstone Lex",
-                "SITE LOCATION": "Lexington, TN",
-                "STREET ADDRESS": "1000 Young Dr, Lexington, TN 38351",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.383065,
-                    35.695153
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "BEM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Bearward",
-                "SITE LOCATION": "Minnesota",
-                "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.218521,
-                    45.162392
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "CRD",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Cardwell",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "ELK",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Hanover Park",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "ERI",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "ETS / GCM",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "GETSA GSC (SPO)",
-                "SITE LOCATION": "Contagem, Brazil",
-                "STREET ADDRESS": "Av. Cardeal Eugênio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
-                "ERP": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -44.022148,
-                    -19.95433
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "HPD",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "FT India Himachal Pradesh - Baddi",
-                "SITE LOCATION": "Baddi, India",
-                "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
-                "ERP": "M3"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.5238657,
-                    31.3104918
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "KCR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Kansas City (KRC)",
-                "SITE LOCATION": "Kansas City, MO",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "MMH  / NOK",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
-                "SITE LOCATION": "Kansas City, MO (w/ NOK)",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Syspro"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "MRC",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Montreal",
-                "SITE LOCATION": "Lachine, Montreal, Canada",
-                "STREET ADDRESS": "Bd Jean Baptiste Deschamps, Lachine, QC H8T 1C5, Canada",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.698454,
-                    45.46427
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "MZT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "MZT",
-                "SITE LOCATION": "Skopje, Macedonia",
-                "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    21.4792057,
-                    41.9968158
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "RPD",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Wabtec Rubber Products",
-                "SITE LOCATION": "Greensburg, PA",
-                "STREET ADDRESS": "269 Donohoe Rd, Greensburg, PA 15601",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -79.497009,
-                    40.312186
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "SCT",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Standard Car Truck",
-                "SITE LOCATION": "Rosemont, IL, USA",
-                "STREET ADDRESS": "6400 Shafer Ct #450, Rosemont, IL 60018",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.8643153,
-                    41.9945897
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "SLM",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Graham White",
-                "SITE LOCATION": "Salem, VA",
-                "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.0529966,
-                    37.2795274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "SRC",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Columbia",
-                "SITE LOCATION": "Columbia, South Carolina",
-                "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -81.0260003,
-                    33.9751995
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Montreal (VCI)",
-                "SITE LOCATION": "Montreal, Canada",
-                "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.700787,
-                    45.497003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Plattsburgh (VCP)",
-                "SITE LOCATION": "Plattsburgh, NY",
-                "STREET ADDRESS": "72 Arizona Ave, Plattsburgh, NY 12903",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.4571427,
-                    44.6578953
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WME",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Motive Equipment (MEI)",
-                "SITE LOCATION": "Milwaukee, WI, USA",
-                "STREET ADDRESS": "8300 W Sleske Ct, Milwaukee, WI 53223",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.0144136,
-                    43.15912
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WMU/WMX",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Wabtec de Mexico",
-                "SITE LOCATION": "San Luis Potosi, Mexico",
-                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosí, S.L.P., Mexico",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8862005,
-                    22.0859772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WPT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Passenger Transit",
-                "SITE LOCATION": "Duncan, South Carolina",
-                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.111872,
-                    34.919319
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WRE",
-                "Ops Leader": "C. Strong",
-                "B/U": "Digital Electronics",
-                "SITE": "Wabtec Railway Electronics",
-                "SITE LOCATION": "Germantown, MD",
-                "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.265761,
-                    39.20438
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WRL",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Rail LTD",
-                "SITE LOCATION": "Doncaster, United Kingdrom",
-                "STREET ADDRESS": "House, Hexthorpe Rd, Doncaster DN4 0BF, United Kingdom",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.142504,
-                    53.521315
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 1",
-                "IT Site Code": "WTT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "TransTech",
-                "SITE LOCATION": "Greenville - SC - USA",
-                "STREET ADDRESS": "46 Beechtree Blvd, Greenville, SC 29605",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.3926937,
-                    34.7551018
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "CRD",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Cardwell",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "ELK",
-                "Ops Leader": "",
-                "B/U": "Freight",
-                "SITE": "Hanover Park",
-                "SITE LOCATION": "Chicago, IL",
-                "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6346073,
-                    41.7418921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "ERI",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Erie",
-                "SITE LOCATION": "Erie, PA",
-                "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.027428,
-                    42.1516188
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "GRR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City Reman (GRM)",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "GRV",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Grove City new engine manufacturing",
-                "SITE LOCATION": "Grove City, PA",
-                "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.109056,
-                    41.167803
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "KCR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "WGS Kansas City (KRC)",
-                "SITE LOCATION": "Kansas City, MO",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "LVR",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Las Vegas Reman",
-                "SITE LOCATION": "Las Vegas, NV",
-                "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
-                "ERP": "Oracle"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -115.054536,
-                    36.2658084
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "MMH  / NOK",
-                "Ops Leader": "M. Thomas",
-                "B/U": "Freight Services",
-                "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
-                "SITE LOCATION": "Kansas City, MO (w/ NOK)",
-                "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
-                "ERP": "Syspro"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.5244106,
-                    39.1385729
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "SLM",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Graham White",
-                "SITE LOCATION": "Salem, VA",
-                "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.0529966,
-                    37.2795274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "TXL",
-                "Ops Leader": "J. Downs",
-                "B/U": "Freight",
-                "SITE": "Texas Locomotive",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "TXO",
-                "Ops Leader": "J. Downs",
-                "B/U": "Mining",
-                "SITE": "Mining Mfg",
-                "SITE LOCATION": "Fort Worth, TX",
-                "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
-                "ERP": "Oracle ED"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.305248,
-                    33.0328349
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "VCI/VCP",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Vapor Stone Rail Systems Montreal (VCI)",
-                "SITE LOCATION": "Montreal, Canada",
-                "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.700787,
-                    45.497003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "WME",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Motive Equipment (MEI)",
-                "SITE LOCATION": "Milwaukee, WI, USA",
-                "STREET ADDRESS": "8300 W Sleske Ct, Milwaukee, WI 53223",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.0144136,
-                    43.15912
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "WMU/WMX",
-                "Ops Leader": "D. Cox",
-                "B/U": "Components",
-                "SITE": "Wabtec de Mexico",
-                "SITE LOCATION": "San Luis Potosi, Mexico",
-                "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosí, S.L.P., Mexico",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -100.8862005,
-                    22.0859772
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Pillar App": "SCC Phase 2",
-                "IT Site Code": "WPT",
-                "Ops Leader": "A. Derbyshire",
-                "B/U": "Transit",
-                "SITE": "Wabtec Passenger Transit",
-                "SITE LOCATION": "Duncan, South Carolina",
-                "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
-                "ERP": "Oracle WH"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.111872,
-                    34.919319
-                ]
-            }
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "APD",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Monterrey (GEMSR)",
+          "SITE LOCATION": "Monterrey, Mexico",
+          "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.13354,
+            25.77816
+          ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "ART",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Saltillo (GEMC)",
+          "SITE LOCATION": "Saltillo, MX",
+          "STREET ADDRESS": "Privada Buenos Aires, Cipreses, 25356 Arteaga, Coahuila, Mexico",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8913994,
+            25.4411819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "BEM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Minnesota",
+          "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.218521,
+            45.162392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "BEN",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Northamptonshire, UK",
+          "STREET ADDRESS": "Main Rd, Far Cotton, Northampton NN4 8HJ, United Kingdom",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.906813,
+            52.227988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "CLE",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Cleveland",
+          "SITE LOCATION": "Cleveland, OH",
+          "STREET ADDRESS": "4477 E 49th St, Cleveland, OH 44125",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.6565861,
+            41.4574809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "CTG",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Contagem (GETSA GSC)",
+          "SITE LOCATION": "Contagem, Brazil",
+          "STREET ADDRESS": "Av. Cardeal Eugenio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -44.022148,
+            -19.95433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "DCM",
+          "Ops Leader": "M. Thomas",
+          "B/U": "NA Distribution",
+          "SITE": "Plainfield DC",
+          "SITE LOCATION": "Plainfield, IN",
+          "STREET ADDRESS": "1110 Smith Rd, Plainfield, IN 46168",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.361333,
+            39.732258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "DCS",
+          "Ops Leader": "M. Thomas",
+          "B/U": "NA Distribution",
+          "SITE": "Houston DC",
+          "SITE LOCATION": "Houston, TX",
+          "STREET ADDRESS": "3004 Aldine Bender Rd Bldg A, Houston, TX 77032",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -95.339773,
+            29.930278
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "DCW",
+          "Ops Leader": "M. Thomas",
+          "B/U": "NA Distribution",
+          "SITE": "Reno DC",
+          "SITE LOCATION": "Reno, NV",
+          "STREET ADDRESS": "9477 NORTH VIRGINIA ST RENO NV 89506",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.8642716,
+            39.6083096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "ELK",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Hanover Park",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "EMP",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Emporium",
+          "SITE LOCATION": "Emporium, PA",
+          "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.229597,
+            41.509152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "EPM",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie Propulsion",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "ERI",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "FCZ",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Czech",
+          "SITE LOCATION": "Plzen, Czech Republic",
+          "STREET ADDRESS": "U Privadece 1315/3, 326 00 Plzen 2-Slovany, Czechia",
+          "ERP": "MM4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.4273862,
+            49.708324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "FRH",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Rohtak",
+          "SITE LOCATION": "India",
+          "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            76.6857,
+            28.8342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "FSG",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Stemmann Technick - STT",
+          "SITE LOCATION": "Schuttorg, Germany",
+          "STREET ADDRESS": "Niedersachsenstr. 2, 48465 Schuttorf, Germany",
+          "ERP": "Abas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.2440265,
+            52.3396967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "HPD",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "FT India Himachal Pradesh - Baddi",
+          "SITE LOCATION": "Baddi, India",
+          "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.5238657,
+            31.3104918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "HSR",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "FT India Hosur",
+          "SITE LOCATION": "Tamil Nadu - IND",
+          "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.95,
+            12.2156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "KCR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Kansas City",
+          "SITE LOCATION": "Kansas City, MO",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "MMH  / NOK",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
+          "SITE LOCATION": "Kansas City, MO (w/ NOK)",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": "Syspro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "MSF",
+          "Ops Leader": "",
+          "B/U": "Transit",
+          "SITE": "Mors Smitt France",
+          "SITE LOCATION": "Sabl�-sur-Sarthe, France",
+          "STREET ADDRESS": "2 Rue de la Mandiniere, Sable-sur-Sarthe, 72300 France",
+          "ERP": "Cegid+ Isoflex"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3036344,
+            47.8213509
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "MZT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "MZT",
+          "SITE LOCATION": "Skopje, Macedonia",
+          "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4792057,
+            41.9968158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "N91",
+          "Ops Leader": "",
+          "B/U": "Components",
+          "SITE": "Neighborhood 91",
+          "SITE LOCATION": "Clinton, PA",
+          "STREET ADDRESS": "1300 CLINTON RD., CLINTON, PA 15026",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.2774272,
+            40.4985241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "PTE",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Precision Turbo",
+          "SITE LOCATION": "Hebron, Indiana",
+          "STREET ADDRESS": "9401 Georgia Street, Crown Point, IN 46307",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.3241675,
+            41.4462614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "SEW/SSC",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Schaefer Equipment",
+          "SITE LOCATION": "Warren, OH",
+          "STREET ADDRESS": "1590 Phoenix Rd NE, Warren, OH 44483",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.798587,
+            41.26244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "SLM",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Graham White",
+          "SITE LOCATION": "Salem, VA",
+          "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.0529966,
+            37.2795274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "SPC",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport (U1)",
+          "SITE LOCATION": "Saint Pierre des Corps, France",
+          "STREET ADDRESS": "75 Av. Yves Farge, 37700 Saint-Pierre-des-Corps, France",
+          "ERP": "Octal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.740281,
+            47.385408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "SRC",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Columbia",
+          "SITE LOCATION": "Columbia, South Carolina",
+          "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.0260003,
+            33.9751995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "TAR",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Iberica",
+          "SITE LOCATION": "Tarragona, Spain",
+          "STREET ADDRESS": "Carrer de la Mecanica, finca 23 Pol�gon Industrial La Drecera, 43470, Tarragona, Spain",
+          "ERP": "IBM Informix Dynamic , PGI"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.25,
+            41.11667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "VBI",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Vapor Bus ",
+          "SITE LOCATION": "",
+          "STREET ADDRESS": "1010 Johnson Dr, Buffalo Grove, IL 60089",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9316833,
+            42.1542574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "VKS",
+          "Ops Leader": "",
+          "B/U": "Digital Electronics",
+          "SITE": "VKS - Visual Knowledge Share Ltd",
+          "SITE LOCATION": "Chateauguay, Quebec, Canada",
+          "STREET ADDRESS": "1241 Cascades St, Chateauguay, Quebec, Canada J6J 4Z2",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.689414,
+            45.3478514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "WIT",
+          "Ops Leader": "",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Bochum",
+          "SITE LOCATION": "Witten, Germany",
+          "STREET ADDRESS": "Sophie-Opel-Str. 20, 44803 Bochum, Germany",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.2588322,
+            51.4674772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "WMS/WMG",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Mexico SLP",
+          "SITE LOCATION": "San Luis Potosi, Mexico",
+          "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosi, S.L.P., Mexico",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8862005,
+            22.0859772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "WPT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Wabtec Passenger Transit",
+          "SITE LOCATION": "Duncan, South Carolina",
+          "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.111872,
+            34.919319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "WRE",
+          "Ops Leader": "C. Strong",
+          "B/U": "Digital Electronics",
+          "SITE": "Wabtec Railway Electronics",
+          "SITE LOCATION": "Germantown, MD",
+          "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.265761,
+            39.20438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "YMM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "GEDL Marwohra",
+          "SITE LOCATION": "Marhowra, India",
+          "STREET ADDRESS": "Bazid Bhoraha, Talpuraina, Marhowrah, Bihar 841418, India",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            84.8566542,
+            25.9734065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "YTJ",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "YoungTouchstone Jax",
+          "SITE LOCATION": "Jackson, TN, USA",
+          "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -85.524796,
+            36.308689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision MES",
+          "IT Site Code": "YTL",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "YoungTouchstone Lex",
+          "SITE LOCATION": "Lexington, TN",
+          "STREET ADDRESS": "1000 Young Dr, Lexington, TN 38351",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.383065,
+            35.695153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "BEM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Minnesota",
+          "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.218521,
+            45.162392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "BEN",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Northamptonshire, UK",
+          "STREET ADDRESS": "Main Rd, Far Cotton, Northampton NN4 8HJ, United Kingdom",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.906813,
+            52.227988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "EPM",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie Propulsion",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "FCZ",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Czech",
+          "SITE LOCATION": "Plzen, Czech Republic",
+          "STREET ADDRESS": "U Privadece 1315/3, 326 00 Plzen 2-Slovany, Czechia",
+          "ERP": "MM4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.4273862,
+            49.708324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "FRH",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Rohtak",
+          "SITE LOCATION": "India",
+          "STREET ADDRESS": "VMF7+HC, Industrial Model Twp, Rohtak, Haryana 124021, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            76.6857,
+            28.8342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "FSG",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Stemmann Technick - STT",
+          "SITE LOCATION": "Schuttorg, Germany",
+          "STREET ADDRESS": "Niedersachsenstr. 2, 48465 Schuttorf, Germany",
+          "ERP": "Abas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.2440265,
+            52.3396967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "HPD",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "FT India Himachal Pradesh - Baddi",
+          "SITE LOCATION": "Baddi, India",
+          "STREET ADDRESS": "Katha, Himachal Pradesh 173205, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.5238657,
+            31.3104918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "HSR",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "FT India Hosur",
+          "SITE LOCATION": "Tamil Nadu - IND",
+          "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.95,
+            12.2156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "MMH  / NOK",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Nordco - Mobile Material Handling - Shuttlewagon",
+          "SITE LOCATION": "Kansas City, MO (w/ NOK)",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": "Syspro"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "MZT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "MZT",
+          "SITE LOCATION": "Skopje, Macedonia",
+          "STREET ADDRESS": "Pero Nakov 124, Skopje 1000, Skopje, North Macedonia",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.4792057,
+            41.9968158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "SLM",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Graham White",
+          "SITE LOCATION": "Salem, VA",
+          "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.0529966,
+            37.2795274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "SRC",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Columbia",
+          "SITE LOCATION": "Columbia, South Carolina",
+          "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.0260003,
+            33.9751995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "TAR",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Iberica",
+          "SITE LOCATION": "Tarragona, Spain",
+          "STREET ADDRESS": "Carrer de la Mecanica, finca 23 Pol�gon Industrial La Drecera, 43470, Tarragona, Spain",
+          "ERP": "IBM Informix Dynamic , PGI"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.25,
+            41.11667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "VAD",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Faiveley Transport Tours (U3)",
+          "SITE LOCATION": "La Ville aux Dames, France",
+          "STREET ADDRESS": "Rue Amelia Earhart, 37700 La Ville-aux-Dames, France",
+          "ERP": "Octal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.7648765,
+            47.3825019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "VCI/VCP",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Vapor Stone Rail Systems (Montreal - VCI / Plattsburgh - VCP)",
+          "SITE LOCATION": "Montreal, Canada / Plattsburgh, NY",
+          "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.700787,
+            45.497003
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "WMS/WMG",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Mexico SLP",
+          "SITE LOCATION": "San Luis Potosi, Mexico",
+          "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosi, S.L.P., Mexico",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8862005,
+            22.0859772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "WPT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Wabtec Passenger Transit",
+          "SITE LOCATION": "Duncan, South Carolina",
+          "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.111872,
+            34.919319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "WRE",
+          "Ops Leader": "C. Strong",
+          "B/U": "Digital Electronics",
+          "SITE": "Wabtec Railway Electronics",
+          "SITE LOCATION": "Germantown, MD",
+          "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.265761,
+            39.20438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "OpsVision Smart Mfg",
+          "IT Site Code": "YTJ",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "YoungTouchstone Jax",
+          "SITE LOCATION": "Jackson, TN, USA",
+          "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -85.524796,
+            36.308689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "CTG",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Contagem (GETSA GSC)",
+          "SITE LOCATION": "Contagem, Brazil",
+          "STREET ADDRESS": "Av. Cardeal Eugenio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -44.022148,
+            -19.95433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "ELK",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Hanover Park",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "EMP",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Emporium",
+          "SITE LOCATION": "Emporium, PA",
+          "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.229597,
+            41.509152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "ERI",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "KCR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Kansas City",
+          "SITE LOCATION": "Kansas City, MO",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "SRC",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Columbia",
+          "SITE LOCATION": "Columbia, South Carolina",
+          "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.0260003,
+            33.9751995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "TXD",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Texas Distribution",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "TXM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Texas OHV",
+          "SITE LOCATION": "Forth Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "WPT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Wabtec Passenger Transit",
+          "SITE LOCATION": "Duncan, South Carolina",
+          "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.111872,
+            34.919319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Reliance",
+          "IT Site Code": "WRE",
+          "Ops Leader": "C. Strong",
+          "B/U": "Digital Electronics",
+          "SITE": "Wabtec Railway Electronics",
+          "SITE LOCATION": "Germantown, MD",
+          "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.265761,
+            39.20438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "APD",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Monterrey (GEMSR)",
+          "SITE LOCATION": "Monterrey, Mexico",
+          "STREET ADDRESS": "Blvd. TLC 150, Parque Industrial FINSA, 66626 Cdad. Apodaca, N.L., Mexico",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.13354,
+            25.77816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "ART",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Saltillo (GEMC)",
+          "SITE LOCATION": "Saltillo, MX",
+          "STREET ADDRESS": "Privada Buenos Aires, Cipreses, 25356 Arteaga, Coahuila, Mexico",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8913994,
+            25.4411819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "CLE",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Cleveland",
+          "SITE LOCATION": "Cleveland, OH",
+          "STREET ADDRESS": "4477 E 49th St, Cleveland, OH 44125",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.6565861,
+            41.4574809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "CTG",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Contagem (GETSA GSC)",
+          "SITE LOCATION": "Contagem, Brazil",
+          "STREET ADDRESS": "Av. Cardeal Eugenio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -44.022148,
+            -19.95433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "DFM",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Dia-Frag",
+          "SITE LOCATION": "",
+          "STREET ADDRESS": "Rua 19 de Novembro, 305 - Vila Sao Cristovao, Monte Alto - SP, 15910-000, Brazil",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -48.49838,
+            -21.2732978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "EMP",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Emporium",
+          "SITE LOCATION": "Emporium, PA",
+          "STREET ADDRESS": "55 S Pine St, Emporium, PA 15834",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.229597,
+            41.509152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "ERI",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "FSG",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Stemmann Technick - STT",
+          "SITE LOCATION": "Schuttorg, Germany",
+          "STREET ADDRESS": "Niedersachsenstr. 2, 48465 Schuttorf, Germany",
+          "ERP": "Abas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.2440265,
+            52.3396967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "FSP",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Stemmann Poland - STP",
+          "SITE LOCATION": "Wroclaw, Poland",
+          "STREET ADDRESS": "Spoldzielcza 22, 55-080 Katy Wroclawskie",
+          "ERP": "Abas"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.75075,
+            51.0287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "HSR",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "FT India Hosur",
+          "SITE LOCATION": "Tamil Nadu - IND",
+          "STREET ADDRESS": "PQPP+48H, Amritha, Hosur, Tamil Nadu 635126, India",
+          "ERP": "M3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.95,
+            12.2156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "KCR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Kansas City",
+          "SITE LOCATION": "Kansas City, MO",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "KSR",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Astana Diesel Shop (GEKUK)",
+          "SITE LOCATION": "Astana, Kazakhstan",
+          "STREET ADDRESS": "X9F6+JJ 14?, Koschi 010078, Kazakhstan",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            71.4211496,
+            51.1668879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "RCR",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight Services",
+          "SITE": "Relco Locomotives Cedar Rapids",
+          "SITE LOCATION": "Cedar Rapids, Iowa",
+          "STREET ADDRESS": "5250 N River Blvd NE, Cedar Rapids, IA 52411",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -91.7120002,
+            42.0291658
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "REA",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight Services",
+          "SITE": "Relco Locomotives Albia",
+          "SITE LOCATION": "Albia, IA, USA",
+          "STREET ADDRESS": "2074 653rd Ave, Albia, IA 52531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -92.792817,
+            40.980441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "WMS/WMG",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Mexico SLP",
+          "SITE LOCATION": "San Luis Potosi, Mexico",
+          "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosi, S.L.P., Mexico",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8862005,
+            22.0859772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "YMM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "GEDL Marwohra",
+          "SITE LOCATION": "Marhowra, India",
+          "STREET ADDRESS": "Bazid Bhoraha, Talpuraina, Marhowrah, Bihar 841418, India",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            84.8566542,
+            25.9734065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "YTJ",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "YoungTouchstone Jax",
+          "SITE LOCATION": "Jackson, TN, USA",
+          "STREET ADDRESS": "200 Smith Ln, Jackson, TN 38301",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -85.524796,
+            36.308689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "Maximo",
+          "IT Site Code": "YTL",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "YoungTouchstone Lex",
+          "SITE LOCATION": "Lexington, TN",
+          "STREET ADDRESS": "1000 Young Dr, Lexington, TN 38351",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.383065,
+            35.695153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "BEM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Minnesota",
+          "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.218521,
+            45.162392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "CRD",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Cardwell",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "CTG",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Contagem (GETSA GSC)",
+          "SITE LOCATION": "Contagem, Brazil",
+          "STREET ADDRESS": "Av. Cardeal Eugenio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -44.022148,
+            -19.95433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "ELK",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Hanover Park",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "ERI",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "KCR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Kansas City",
+          "SITE LOCATION": "Kansas City, MO",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "SEW/SSC",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Schaefer Equipment",
+          "SITE LOCATION": "Warren, OH",
+          "STREET ADDRESS": "1590 Phoenix Rd NE, Warren, OH 44483",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.798587,
+            41.26244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "SLM",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Graham White",
+          "SITE LOCATION": "Salem, VA",
+          "STREET ADDRESS": "1242 S Colorado St, Salem, VA 24153",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.0529966,
+            37.2795274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "SRC",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "WGS Columbia",
+          "SITE LOCATION": "Columbia, South Carolina",
+          "STREET ADDRESS": "949 Rosewood Dr, Columbia, SC 29201",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.0260003,
+            33.9751995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "VCI/VCP",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Vapor Stone Rail Systems (Montreal - VCI / Plattsburgh - VCP)",
+          "SITE LOCATION": "Montreal, Canada / Plattsburgh, NY",
+          "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.700787,
+            45.497003
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "WME",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Motive Equipment (MEI)",
+          "SITE LOCATION": "Milwaukee, WI, USA",
+          "STREET ADDRESS": "8300 W Sleske Ct, Milwaukee, WI 53223",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.0144136,
+            43.15912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "WMU/WMX",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Wabtec de Mexico",
+          "SITE LOCATION": "San Luis Potosi, Mexico",
+          "STREET ADDRESS": "Eje 126 230, Industrial San Luis, 78395 San Luis Potosi, S.L.P., Mexico",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.8862005,
+            22.0859772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "WPT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Wabtec Passenger Transit",
+          "SITE LOCATION": "Duncan, South Carolina",
+          "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.111872,
+            34.919319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "WRE",
+          "Ops Leader": "C. Strong",
+          "B/U": "Digital Electronics",
+          "SITE": "Wabtec Railway Electronics",
+          "SITE LOCATION": "Germantown, MD",
+          "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.265761,
+            39.20438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 1",
+          "IT Site Code": "WTT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "TransTech",
+          "SITE LOCATION": "Greenville - SC - USA",
+          "STREET ADDRESS": "46 Beechtree Blvd, Greenville, SC 29605",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.3926937,
+            34.7551018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "BEM",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Bearward",
+          "SITE LOCATION": "Minnesota",
+          "STREET ADDRESS": "10550 Nassau St NE, Minneapolis, MN 55449",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.218521,
+            45.162392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "CRD",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Cardwell",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "CTG",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Contagem (GETSA GSC)",
+          "SITE LOCATION": "Contagem, Brazil",
+          "STREET ADDRESS": "Av. Cardeal Eugenio Pacelli, 1145 - Cidade Industrial, Contagem - MG, Brazil",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -44.022148,
+            -19.95433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "ELK",
+          "Ops Leader": "",
+          "B/U": "Freight",
+          "SITE": "Hanover Park",
+          "SITE LOCATION": "Chicago, IL",
+          "STREET ADDRESS": "8400 S Stewart Ave, Chicago, IL 60620",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346073,
+            41.7418921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "ERI",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Erie",
+          "SITE LOCATION": "Erie, PA",
+          "STREET ADDRESS": "2901 E Lake Rd, Erie, PA 16531",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.027428,
+            42.1516188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "GRR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City Reman",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "GRV",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Grove City new engine manufacturing",
+          "SITE LOCATION": "Grove City, PA",
+          "STREET ADDRESS": "1503 W Main St Ext, Grove City, PA 16127",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.109056,
+            41.167803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "KCR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Kansas City",
+          "SITE LOCATION": "Kansas City, MO",
+          "STREET ADDRESS": "4800 Deramus Ave, Kansas City, MO 64120",
+          "ERP": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.5244106,
+            39.1385729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "LVR",
+          "Ops Leader": "M. Thomas",
+          "B/U": "Freight Services",
+          "SITE": "Las Vegas Reman",
+          "SITE LOCATION": "Las Vegas, NV",
+          "STREET ADDRESS": "5406 E El Campo Grande Avenue, Las Vegas, NV  89115 ",
+          "ERP": "Oracle"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.054536,
+            36.2658084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "TXL",
+          "Ops Leader": "J. Downs",
+          "B/U": "Freight",
+          "SITE": "Texas Locomotive",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "TXO",
+          "Ops Leader": "J. Downs",
+          "B/U": "Mining",
+          "SITE": "Mining Mfg",
+          "SITE LOCATION": "Fort Worth, TX",
+          "STREET ADDRESS": "16201 Three Wide Dr. Fort Worth TX 76177",
+          "ERP": "Oracle ED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.305248,
+            33.0328349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "VCI/VCP",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Vapor Stone Rail Systems (Montreal - VCI / Plattsburgh - VCP)",
+          "SITE LOCATION": "Montreal, Canada / Plattsburgh, NY",
+          "STREET ADDRESS": "10000 Cavendish Blvd, Saint-Laurent, Quebec H4M 2V1, Canada",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.700787,
+            45.497003
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "WME",
+          "Ops Leader": "D. Cox",
+          "B/U": "Components",
+          "SITE": "Motive Equipment (MEI)",
+          "SITE LOCATION": "Milwaukee, WI, USA",
+          "STREET ADDRESS": "8300 W Sleske Ct, Milwaukee, WI 53223",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.0144136,
+            43.15912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "WPT",
+          "Ops Leader": "A. Derbyshire",
+          "B/U": "Transit",
+          "SITE": "Wabtec Passenger Transit",
+          "SITE LOCATION": "Duncan, South Carolina",
+          "STREET ADDRESS": "130 Ridgeview Cir, Duncan, SC 29334",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.111872,
+            34.919319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Pillar App": "SCC Phase 2",
+          "IT Site Code": "WRE",
+          "Ops Leader": "C. Strong",
+          "B/U": "Digital Electronics",
+          "SITE": "Wabtec Railway Electronics",
+          "SITE LOCATION": "Germantown, MD",
+          "STREET ADDRESS": "21200 Dorsey Mill Road, Germantown, MD 20876",
+          "ERP": "Oracle WH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.265761,
+            39.20438
+          ]
+        }
+      }
     ]
-}
+  }
+  
