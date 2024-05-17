@@ -13,8 +13,12 @@ Do note that the map’s data may not be comprehensive or up to date at your tim
 
 ### b.	Interaction
 
-Hover to View Site Data:	Hovering your mouse over a marker on the map will cause a pop-up to appear. This pop-up contains the following data relating to the manufacturing site located at that marker: Site Name, IT Site Code, Business Unit, Operations Leader, the main ERP used at that site, the site’s street address, and a list of all Pillar Apps that are currently deployed at that site.
+Hover to View Site Data:	
+
+Hovering your mouse over a marker on the map will cause a pop-up to appear. This pop-up contains the following data relating to the manufacturing site located at that marker: Site Name, IT Site Code, Business Unit, Operations Leader, the main ERP used at that site, the site’s street address, and a list of all Pillar Apps that are currently deployed at that site.
+
 Navigating:
+
 There are a few ways to navigate around and further inspect the map. 
 1)	Dragging the globe with your mouse will allow you to rotate its surface. 
 2)	Scrolling with a computer mouse (or pinching/expanding with a keypad) will allow you to zoom in and out on the map. 
@@ -42,17 +46,30 @@ For your updates to reflect on the Github Pages site and to avoid later issues, 
 
 ### b.	Updating Datasets
 
-First, make all desired changes to the “masterSiteListing” and/or “pillarAppDeployments” tabs in the ‘Site_Pillar_App_Roadmaps’ Excel spreadsheet (you can also find instructions on updating the project’s datasets there).
+First, make all desired changes to the “masterSiteListing” and/or “pillarAppDeployments” tabs in the ‘Site_Pillar_Apps_Roadmaps’ Excel spreadsheet.
 
 **a.	For the Pillar App Deployment Data:**
+
 •	"Pillar App," "IT Site Code," "Latitude," and "Longitude" are the minimum required fields to complete for a successful upload.
+
 • Save a CSV copy of the 'pillarAppDeployments' sheet
       
 **b.	For the Master Site Listing Data:**
+
 •	"IT Site Code," "Latitude," and "Longitude" are the minimum required fields to complete for a successful upload.  
+
 • Save a CSV copy of the 'masterSiteListing' sheet
 
-**In-Session Updating Pillar Apps Deployment Data**
+**IN-SESSION Updating Master Site Listing Data**
+
+Note: This change will only reflect on your personal browser (other users will not see these changes).
+
+1) Click the 'Upload Data' button in the upper righthand corner of the web app.
+2) Enter the authentication password to gain access (contact one of the Pillar App team leads for this).
+3) Upload your masterSiteListing.CSV file with the corresponding 'Choose File' button.
+4) Click 'Apply.' A green banner at the bottom of the screen should alert you that the upload was successful.
+
+**IN-SESSION Updating Pillar Apps Deployment Data**
 
 Note: This change will only reflect on your personal browser (other users will not see these changes).
 
@@ -61,33 +78,19 @@ Note: This change will only reflect on your personal browser (other users will n
 3) Upload your pillarAppDeployments.CSV file with the corresponding 'Choose File' button.
 4) Click 'Apply.' A green banner at the bottom of the screen should alert you that the upload was successful.
 
-**IN-SESSION Updating Master Site Listing Data**
-Note: This change will only reflect on your personal browser (other users will not see these changes).
-1) Click the 'Upload Data' button in the upper righthand corner of the web app.
-2) Enter the authentication password to gain access (contact one of the Pillar App team leads for this).
-3) Upload your masterSiteListing.CSV file with the corresponding 'Choose File' button.
-4) Click 'Apply.' A green banner at the bottom of the screen should alert you that the upload was successful.
-
-**PERMANENTLY Updating Pillar Apps Deployment Data**
-1)	Convert the CSV copy of the 'pillarAppDeployments' to GeoJSON data using https://geojson.io/.                                                                                                                                                    
-2)	Save and title the new GeoJSON file: app_deployment.geojson.                                                                                                                                                                                                                                                                                        
-3)	Then, replace the existing app_deployment.geojson file with the updated version within the project's GitHub repository found here.
+That's it! In-session changes to the map should be visible to the UI.
 
 **PERMANENTLY Updating Master Site Listing Data**
 1)	Convert the CSV copy of the 'masterSiteListing' sheet to GeoJSON data using https://geojson.io/.                                                                                                                                                                              
 2)	Save and title the new GeoJSON file: master_site_listing.geojson.                                                                                                                                                                                                                                                                                    
 3)	Then, replace the existing master_site_listing.geojson file with the updated version within the project's GitHub repository found here.
 
+**PERMANENTLY Updating Pillar Apps Deployment Data**
+1)	Convert the CSV copy of the 'pillarAppDeployments' to GeoJSON data using https://geojson.io/.                                                                                                                                                    
+2)	Save and title the new GeoJSON file: app_deployment.geojson.                                                                                                                                                                                                                                                                                        
+3)	Then, replace the existing app_deployment.geojson file with the updated version within the project's GitHub repository found here.
+
 That's it! Allow a few minutes for the GitHub Pages site to reflect your changes.   
 
---------
-
-## IV.	Troubleshooting
-V.	Tools Used
-a.	Excel
-b.	GeoJson.io
-c.	Mapbox Studio
-d.	Mapbox GL JS
-e.	GitHub
 
 
